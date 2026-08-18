@@ -1,0 +1,19 @@
+{
+  "feature_columns": [
+    "cat_apartment",
+    "cat_house",
+    "cat_studio",
+    "Discount_Flag"
+  ],
+  "weights": {
+    "cat_apartment": 0.2575313150882721,
+    "cat_house": 0.25887176394462585,
+    "cat_studio": 0.3096776008605957,
+    "Discount_Flag": 0.001526171574369073
+  },
+  "bias": -0.26374831795692444,
+  "train_rmse": 0.11361867189407349,
+  "val_rmse": 0.13852772116661072,
+  "n_train": 968,
+  "n_val": 175
+}

@@ -1,0 +1,11 @@
+numpy>=2.0
+pandas>=2.0
+pyarrow>=15.0
+torch>=2.2
+transformers>=4.40
+datasets>=2.18
+evaluate>=0.4
+rouge_score>=0.1.2
+accelerate>=0.29
+sentencepiece>=0.2
+scikit-learn>=1.4

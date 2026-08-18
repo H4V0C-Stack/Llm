@@ -1,0 +1,2650 @@
+[
+  {
+    "prompt": "Describe this property transaction: Region=NridgHt, Price=$345,000, Product_Category=house, Year_Sold=2006, Overall_Qual=9, Garage_Cars=3, Discount=a partial sale.",
+    "target": "A house in NridgHt sold for $345,000 in 2006. The property has excellent overall quality (score 9/10) and 3 garage parking spots. It was a partial sale."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0251 mean for the Gilbert neighborhood in 2009?",
+    "target": "In Gilbert, the regional median sale price decreased by -2.51% year-over-year up to 2009. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in BrDale: Price_Elasticity=-0.1943. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in BrDale (price elasticity=-0.1943, i.e. -19.43% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "How active was the NAmes market in 2006? Sales count for (Region=NAmes, Year_Sold=2006) is 44.",
+    "target": "In 2006, 44 transactions were recorded in NAmes. This is a moderately active market."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Edwards: Price_Elasticity=-0.0883. The regional median is the reference point.",
+    "target": "This house sold moderately below the regional median price in Edwards (price elasticity=-0.0883, i.e. -8.83% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.2154 mean for the Somerst neighborhood in 2007?",
+    "target": "In Somerst, the regional median sale price increased by 21.54% year-over-year up to 2007. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=OldTown, Price=$152,000.",
+    "target": "No, this property in OldTown is not near a railroad (Condition_1=Norm). It sold for $152,000 in 2007."
+  },
+  {
+    "prompt": "How active was the NWAmes market in 2006? Sales count for (Region=NWAmes, Year_Sold=2006) is 18.",
+    "target": "In 2006, 18 transactions were recorded in NWAmes. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NridgHt: Price_Elasticity=0.0095. The regional median is the reference point.",
+    "target": "This house sold very slightly above the regional median price in NridgHt (price elasticity=0.0095, i.e. +0.95% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NAmes, Price=$136,000, Product_Category=apartment, Year_Sold=2009, Overall_Qual=5, Garage_Cars=0, Discount=a standard market sale.",
+    "target": "A apartment in NAmes sold for $136,000 in 2009. The property has average overall quality (score 5/10) and 0 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Somerst, Price=$253,000, Product_Category=house, Year_Sold=2009, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Somerst sold for $253,000 in 2009. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Crawfor: Price_Elasticity=0.1913. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in Crawfor (price elasticity=0.1913, i.e. +19.13% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NAmes, Price=$111,250.",
+    "target": "No, this property in NAmes is not near a railroad (Condition_1=Norm). It sold for $111,250 in 2008."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=StoneBr, Price=$251,000, Product_Category=house, Year_Sold=2007, Overall_Qual=8, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in StoneBr sold for $251,000 in 2007. The property has good overall quality (score 8/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Somerst, Price=$227,875.",
+    "target": "No, this property in Somerst is not near a railroad (Condition_1=Norm). It sold for $227,875 in 2007."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NAmes, Price=$141,000, Product_Category=house, Year_Sold=2006, Overall_Qual=5, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in NAmes sold for $141,000 in 2006. The property has average overall quality (score 5/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a apartment in Edwards: Price_Elasticity=0.4702. The regional median is the reference point.",
+    "target": "This apartment sold significantly above the regional median price in Edwards (price elasticity=0.4702, i.e. +47.02% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=IDOTRR, Price=$135,000.",
+    "target": "No, this property in IDOTRR is not near a railroad (Condition_1=Norm). It sold for $135,000 in 2008."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Sawyer, Price=$164,500, Product_Category=house, Year_Sold=2006, Overall_Qual=5, Garage_Cars=2, Discount=an abnormal sale.",
+    "target": "A house in Sawyer sold for $164,500 in 2006. The property has average overall quality (score 5/10) and 2 garage parking spots. It was an abnormal sale."
+  },
+  {
+    "prompt": "How active was the Somerst market in 2008? Sales count for (Region=Somerst, Year_Sold=2008) is 20.",
+    "target": "In 2008, 20 transactions were recorded in Somerst. This is a moderately active market."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0042 mean for the NWAmes neighborhood in 2008?",
+    "target": "In NWAmes, the regional median sale price decreased by -0.42% year-over-year up to 2008. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NAmes: Price_Elasticity=0.0350. The regional median is the reference point.",
+    "target": "This house sold slightly above the regional median price in NAmes (price elasticity=0.0350, i.e. +3.50% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "How active was the Edwards market in 2007? Sales count for (Region=Edwards, Year_Sold=2007) is 17.",
+    "target": "In 2007, 17 transactions were recorded in Edwards. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=SawyerW, Price=$233,000, Product_Category=house, Year_Sold=2010, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in SawyerW sold for $233,000 in 2010. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Timber: Price_Elasticity=0.2562. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in Timber (price elasticity=0.2562, i.e. +25.62% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "How active was the CollgCr market in 2006? Sales count for (Region=CollgCr, Year_Sold=2006) is 32.",
+    "target": "In 2006, 32 transactions were recorded in CollgCr. This is a moderately active market."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NAmes, Price=$133,000, Product_Category=house, Year_Sold=2007, Overall_Qual=7, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in NAmes sold for $133,000 in 2007. The property has good overall quality (score 7/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in CollgCr: Price_Elasticity=0.0827. The regional median is the reference point.",
+    "target": "This house sold moderately above the regional median price in CollgCr (price elasticity=0.0827, i.e. +8.27% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "How active was the Edwards market in 2006? Sales count for (Region=Edwards, Year_Sold=2006) is 19.",
+    "target": "In 2006, 19 transactions were recorded in Edwards. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0719 mean for the NAmes neighborhood in 2010?",
+    "target": "In NAmes, the regional median sale price increased by 7.19% year-over-year up to 2010. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0450 mean for the NAmes neighborhood in 2008?",
+    "target": "In NAmes, the regional median sale price increased by 4.50% year-over-year up to 2008. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "How active was the ClearCr market in 2007? Sales count for (Region=ClearCr, Year_Sold=2007) is 6.",
+    "target": "In 2007, 6 transactions were recorded in ClearCr. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=CollgCr, Price=$173,500, Product_Category=house, Year_Sold=2009, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in CollgCr sold for $173,500 in 2009. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Edwards, Price=$61,000.",
+    "target": "No, this property in Edwards is not near a railroad (Condition_1=Norm). It sold for $61,000 in 2009."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=OldTown, Price=$95,000, Product_Category=house, Year_Sold=2009, Overall_Qual=3, Garage_Cars=2, Discount=an abnormal sale.",
+    "target": "A house in OldTown sold for $95,000 in 2009. The property has below-average overall quality (score 3/10) and 2 garage parking spots. It was an abnormal sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=OldTown, Price=$128,000.",
+    "target": "No, this property in OldTown is not near a railroad (Condition_1=Norm). It sold for $128,000 in 2008."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0610 mean for the Gilbert neighborhood in 2008?",
+    "target": "In Gilbert, the regional median sale price increased by 6.10% year-over-year up to 2008. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "How active was the BrkSide market in 2009? Sales count for (Region=BrkSide, Year_Sold=2009) is 17.",
+    "target": "In 2009, 17 transactions were recorded in BrkSide. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Somerst, Price=$214,000, Product_Category=house, Year_Sold=2008, Overall_Qual=6, Garage_Cars=3, Discount=a standard market sale.",
+    "target": "A house in Somerst sold for $214,000 in 2008. The property has average overall quality (score 6/10) and 3 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0574 mean for the CollgCr neighborhood in 2008?",
+    "target": "In CollgCr, the regional median sale price decreased by -5.74% year-over-year up to 2008. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=BrDale, Price=$85,400, Product_Category=house, Year_Sold=2008, Overall_Qual=6, Garage_Cars=1, Discount=an abnormal sale.",
+    "target": "A house in BrDale sold for $85,400 in 2008. The property has average overall quality (score 6/10) and 1 garage parking spot. It was an abnormal sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=CollgCr, Price=$133,500.",
+    "target": "No, this property in CollgCr is not near a railroad (Condition_1=Norm). It sold for $133,500 in 2009."
+  },
+  {
+    "prompt": "How active was the SawyerW market in 2006? Sales count for (Region=SawyerW, Year_Sold=2006) is 8.",
+    "target": "In 2006, 8 transactions were recorded in SawyerW. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0719 mean for the NAmes neighborhood in 2010?",
+    "target": "In NAmes, the regional median sale price increased by 7.19% year-over-year up to 2010. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "How active was the NridgHt market in 2009? Sales count for (Region=NridgHt, Year_Sold=2009) is 22.",
+    "target": "In 2009, 22 transactions were recorded in NridgHt. This is a moderately active market."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=CollgCr, Price=$196,500, Product_Category=house, Year_Sold=2006, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in CollgCr sold for $196,500 in 2006. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the CollgCr market in 2009? Sales count for (Region=CollgCr, Year_Sold=2009) is 39.",
+    "target": "In 2009, 39 transactions were recorded in CollgCr. This is a moderately active market."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Mitchel: Price_Elasticity=0.1140. The regional median is the reference point.",
+    "target": "This house sold moderately above the regional median price in Mitchel (price elasticity=0.1140, i.e. +11.40% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.1385 mean for the SawyerW neighborhood in 2008?",
+    "target": "In SawyerW, the regional median sale price decreased by -13.85% year-over-year up to 2008. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in BrkSide: Price_Elasticity=-0.0507. The regional median is the reference point.",
+    "target": "This house sold slightly below the regional median price in BrkSide (price elasticity=-0.0507, i.e. -5.07% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "How active was the NoRidge market in 2008? Sales count for (Region=NoRidge, Year_Sold=2008) is 6.",
+    "target": "In 2008, 6 transactions were recorded in NoRidge. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "How active was the Veenker market in 2006? Sales count for (Region=Veenker, Year_Sold=2006) is 3.",
+    "target": "In 2006, 3 transactions were recorded in Veenker. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "How active was the Mitchel market in 2006? Sales count for (Region=Mitchel, Year_Sold=2006) is 11.",
+    "target": "In 2006, 11 transactions were recorded in Mitchel. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Gilbert: Price_Elasticity=-0.0608. The regional median is the reference point.",
+    "target": "This house sold slightly below the regional median price in Gilbert (price elasticity=-0.0608, i.e. -6.08% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Sawyer, Price=$112,000, Product_Category=house, Year_Sold=2007, Overall_Qual=5, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Sawyer sold for $112,000 in 2007. The property has average overall quality (score 5/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0207 mean for the NoRidge neighborhood in 2008?",
+    "target": "In NoRidge, the regional median sale price increased by 2.07% year-over-year up to 2008. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "How active was the OldTown market in 2007? Sales count for (Region=OldTown, Year_Sold=2007) is 24.",
+    "target": "In 2007, 24 transactions were recorded in OldTown. This is a moderately active market."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Gilbert, Price=$225,000.",
+    "target": "No, this property in Gilbert is not near a railroad (Condition_1=Norm). It sold for $225,000 in 2009."
+  },
+  {
+    "prompt": "How active was the Edwards market in 2007? Sales count for (Region=Edwards, Year_Sold=2007) is 17.",
+    "target": "In 2007, 17 transactions were recorded in Edwards. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Somerst, Price=$252,678.",
+    "target": "No, this property in Somerst is not near a railroad (Condition_1=Norm). It sold for $252,678 in 2009."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Edwards, Price=$145,000.",
+    "target": "No, this property in Edwards is not near a railroad (Condition_1=Norm). It sold for $145,000 in 2006."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=OldTown, Price=$153,900, Product_Category=house, Year_Sold=2008, Overall_Qual=5, Garage_Cars=3, Discount=a standard market sale.",
+    "target": "A house in OldTown sold for $153,900 in 2008. The property has average overall quality (score 5/10) and 3 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NWAmes, Price=$197,500, Product_Category=house, Year_Sold=2009, Overall_Qual=5, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in NWAmes sold for $197,500 in 2009. The property has average overall quality (score 5/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the Timber market in 2010? Sales count for (Region=Timber, Year_Sold=2010) is 5.",
+    "target": "In 2010, 5 transactions were recorded in Timber. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=BrkSide, Price=$144,000, Product_Category=house, Year_Sold=2007, Overall_Qual=5, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in BrkSide sold for $144,000 in 2007. The property has average overall quality (score 5/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Mitchel, Price=$201,000, Product_Category=house, Year_Sold=2010, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Mitchel sold for $201,000 in 2010. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Gilbert, Price=$186,500.",
+    "target": "No, this property in Gilbert is not near a railroad (Condition_1=Norm). It sold for $186,500 in 2008."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NridgHt, Price=$207,500.",
+    "target": "No, this property in NridgHt is not near a railroad (Condition_1=Norm). It sold for $207,500 in 2009."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Edwards, Price=$198,500.",
+    "target": "No, this property in Edwards is not near a railroad (Condition_1=Norm). It sold for $198,500 in 2009."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Somerst: Price_Elasticity=-0.2284. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in Somerst (price elasticity=-0.2284, i.e. -22.84% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NAmes, Price=$119,000.",
+    "target": "No, this property in NAmes is not near a railroad (Condition_1=Norm). It sold for $119,000 in 2007."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Blmngtn: Price_Elasticity=-0.0524. The regional median is the reference point.",
+    "target": "This house sold slightly below the regional median price in Blmngtn (price elasticity=-0.0524, i.e. -5.24% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NridgHt, Price=$342,643, Product_Category=house, Year_Sold=2006, Overall_Qual=9, Garage_Cars=3, Discount=a partial sale.",
+    "target": "A house in NridgHt sold for $342,643 in 2006. The property has excellent overall quality (score 9/10) and 3 garage parking spots. It was a partial sale."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NoRidge, Price=$290,000, Product_Category=house, Year_Sold=2010, Overall_Qual=8, Garage_Cars=3, Discount=a standard market sale.",
+    "target": "A house in NoRidge sold for $290,000 in 2010. The property has good overall quality (score 8/10) and 3 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NAmes: Price_Elasticity=0.1679. The regional median is the reference point.",
+    "target": "This house sold moderately above the regional median price in NAmes (price elasticity=0.1679, i.e. +16.79% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0444 mean for the SWISU neighborhood in 2009?",
+    "target": "In SWISU, the regional median sale price increased by 4.44% year-over-year up to 2009. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=OldTown, Price=$97,000, Product_Category=house, Year_Sold=2008, Overall_Qual=5, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in OldTown sold for $97,000 in 2008. The property has average overall quality (score 5/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Somerst, Price=$144,152.",
+    "target": "No, this property in Somerst is not near a railroad (Condition_1=Norm). It sold for $144,152 in 2006."
+  },
+  {
+    "prompt": "How active was the ClearCr market in 2010? Sales count for (Region=ClearCr, Year_Sold=2010) is 4.",
+    "target": "In 2010, 4 transactions were recorded in ClearCr. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "How active was the Somerst market in 2007? Sales count for (Region=Somerst, Year_Sold=2007) is 24.",
+    "target": "In 2007, 24 transactions were recorded in Somerst. This is a moderately active market."
+  },
+  {
+    "prompt": "How active was the NWAmes market in 2007? Sales count for (Region=NWAmes, Year_Sold=2007) is 12.",
+    "target": "In 2007, 12 transactions were recorded in NWAmes. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.1868 mean for the ClearCr neighborhood in 2007?",
+    "target": "In ClearCr, the regional median sale price increased by 18.68% year-over-year up to 2007. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NAmes, Price=$165,000, Product_Category=house, Year_Sold=2008, Overall_Qual=6, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in NAmes sold for $165,000 in 2008. The property has average overall quality (score 6/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Mitchel: Price_Elasticity=0.0782. The regional median is the reference point.",
+    "target": "This house sold slightly above the regional median price in Mitchel (price elasticity=0.0782, i.e. +7.82% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "How active was the Sawyer market in 2008? Sales count for (Region=Sawyer, Year_Sold=2008) is 13.",
+    "target": "In 2008, 13 transactions were recorded in Sawyer. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NWAmes, Price=$175,000.",
+    "target": "No, this property in NWAmes is not near a railroad (Condition_1=Norm). It sold for $175,000 in 2007."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.1525 mean for the OldTown neighborhood in 2009?",
+    "target": "In OldTown, the regional median sale price decreased by -15.25% year-over-year up to 2009. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in CollgCr: Price_Elasticity=-0.0091. The regional median is the reference point.",
+    "target": "This house sold very slightly below the regional median price in CollgCr (price elasticity=-0.0091, i.e. -0.91% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Somerst, Price=$205,950.",
+    "target": "No, this property in Somerst is not near a railroad (Condition_1=Norm). It sold for $205,950 in 2008."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in SawyerW: Price_Elasticity=-0.3330. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in SawyerW (price elasticity=-0.3330, i.e. -33.30% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "How active was the NWAmes market in 2009? Sales count for (Region=NWAmes, Year_Sold=2009) is 21.",
+    "target": "In 2009, 21 transactions were recorded in NWAmes. This is a moderately active market."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0438 mean for the Sawyer neighborhood in 2010?",
+    "target": "In Sawyer, the regional median sale price decreased by -4.38% year-over-year up to 2010. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in CollgCr: Price_Elasticity=0.0086. The regional median is the reference point.",
+    "target": "This house sold very slightly above the regional median price in CollgCr (price elasticity=0.0086, i.e. +0.86% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0165 mean for the NAmes neighborhood in 2007?",
+    "target": "In NAmes, the regional median sale price increased by 1.65% year-over-year up to 2007. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in CollgCr: Price_Elasticity=0.0796. The regional median is the reference point.",
+    "target": "This house sold slightly above the regional median price in CollgCr (price elasticity=0.0796, i.e. +7.96% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=OldTown, Price=$87,000, Product_Category=house, Year_Sold=2007, Overall_Qual=5, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in OldTown sold for $87,000 in 2007. The property has average overall quality (score 5/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0450 mean for the NAmes neighborhood in 2008?",
+    "target": "In NAmes, the regional median sale price increased by 4.50% year-over-year up to 2008. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Gilbert: Price_Elasticity=-0.0074. The regional median is the reference point.",
+    "target": "This house sold very slightly below the regional median price in Gilbert (price elasticity=-0.0074, i.e. -0.74% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=BrkSide, Price=$120,000.",
+    "target": "No, this property in BrkSide is not near a railroad (Condition_1=Norm). It sold for $120,000 in 2008."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NAmes: Price_Elasticity=-0.2393. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in NAmes (price elasticity=-0.2393, i.e. -23.93% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NWAmes, Price=$202,500, Product_Category=house, Year_Sold=2006, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in NWAmes sold for $202,500 in 2006. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NoRidge, Price=$280,000.",
+    "target": "No, this property in NoRidge is not near a railroad (Condition_1=Norm). It sold for $280,000 in 2006."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NAmes: Price_Elasticity=-0.1500. The regional median is the reference point.",
+    "target": "This house sold moderately below the regional median price in NAmes (price elasticity=-0.1500, i.e. -15.00% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Blueste, Price=$124,000, Product_Category=house, Year_Sold=2009, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Blueste sold for $124,000 in 2009. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the Edwards market in 2006? Sales count for (Region=Edwards, Year_Sold=2006) is 19.",
+    "target": "In 2006, 19 transactions were recorded in Edwards. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0440 mean for the Timber neighborhood in 2007?",
+    "target": "In Timber, the regional median sale price decreased by -4.40% year-over-year up to 2007. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=OldTown, Price=$157,000.",
+    "target": "No, this property in OldTown is not near a railroad (Condition_1=Norm). It sold for $157,000 in 2006."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NoRidge, Price=$302,000, Product_Category=house, Year_Sold=2007, Overall_Qual=8, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in NoRidge sold for $302,000 in 2007. The property has good overall quality (score 8/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Edwards, Price=$185,000.",
+    "target": "No, this property in Edwards is not near a railroad (Condition_1=Norm). It sold for $185,000 in 2008."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NAmes, Price=$110,000.",
+    "target": "No, this property in NAmes is not near a railroad (Condition_1=Norm). It sold for $110,000 in 2008."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.2736 mean for the SWISU neighborhood in 2008?",
+    "target": "In SWISU, the regional median sale price decreased by -27.36% year-over-year up to 2008. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=RRAe, Region=SawyerW, Price=$155,000.",
+    "target": "Yes, this property in SawyerW is located near a railroad (Condition_1=RRAe). Railroad proximity is generally associated with lower price elasticity and can negatively affect perceived property value."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Sawyer, Price=$132,000.",
+    "target": "No, this property in Sawyer is not near a railroad (Condition_1=Norm). It sold for $132,000 in 2007."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NWAmes, Price=$207,500, Product_Category=house, Year_Sold=2006, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in NWAmes sold for $207,500 in 2006. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Crawfor, Price=$157,000.",
+    "target": "No, this property in Crawfor is not near a railroad (Condition_1=Norm). It sold for $157,000 in 2006."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=OldTown, Price=$170,000.",
+    "target": "No, this property in OldTown is not near a railroad (Condition_1=Norm). It sold for $170,000 in 2006."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0430 mean for the NAmes neighborhood in 2009?",
+    "target": "In NAmes, the regional median sale price decreased by -4.30% year-over-year up to 2009. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=BrkSide, Price=$159,000, Product_Category=house, Year_Sold=2006, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in BrkSide sold for $159,000 in 2006. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the Crawfor market in 2009? Sales count for (Region=Crawfor, Year_Sold=2009) is 9.",
+    "target": "In 2009, 9 transactions were recorded in Crawfor. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.1062 mean for the Edwards neighborhood in 2008?",
+    "target": "In Edwards, the regional median sale price increased by 10.62% year-over-year up to 2008. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Somerst: Price_Elasticity=0.1304. The regional median is the reference point.",
+    "target": "This house sold moderately above the regional median price in Somerst (price elasticity=0.1304, i.e. +13.04% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NAmes: Price_Elasticity=-0.3036. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in NAmes (price elasticity=-0.3036, i.e. -30.36% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0430 mean for the NAmes neighborhood in 2009?",
+    "target": "In NAmes, the regional median sale price decreased by -4.30% year-over-year up to 2009. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Mitchel, Price=$119,500.",
+    "target": "No, this property in Mitchel is not near a railroad (Condition_1=Norm). It sold for $119,500 in 2008."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=IDOTRR, Price=$109,900.",
+    "target": "No, this property in IDOTRR is not near a railroad (Condition_1=Norm). It sold for $109,900 in 2007."
+  },
+  {
+    "prompt": "How active was the Gilbert market in 2008? Sales count for (Region=Gilbert, Year_Sold=2008) is 10.",
+    "target": "In 2008, 10 transactions were recorded in Gilbert. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0450 mean for the NAmes neighborhood in 2008?",
+    "target": "In NAmes, the regional median sale price increased by 4.50% year-over-year up to 2008. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Timber: Price_Elasticity=-0.1203. The regional median is the reference point.",
+    "target": "This house sold moderately below the regional median price in Timber (price elasticity=-0.1203, i.e. -12.03% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0105 mean for the CollgCr neighborhood in 2009?",
+    "target": "In CollgCr, the regional median sale price increased by 1.05% year-over-year up to 2009. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NridgHt, Price=$335,000, Product_Category=house, Year_Sold=2009, Overall_Qual=9, Garage_Cars=3, Discount=a standard market sale.",
+    "target": "A house in NridgHt sold for $335,000 in 2009. The property has excellent overall quality (score 9/10) and 3 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the Crawfor market in 2008? Sales count for (Region=Crawfor, Year_Sold=2008) is 9.",
+    "target": "In 2008, 9 transactions were recorded in Crawfor. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "How active was the Crawfor market in 2007? Sales count for (Region=Crawfor, Year_Sold=2007) is 19.",
+    "target": "In 2007, 19 transactions were recorded in Crawfor. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.2375 mean for the NridgHt neighborhood in 2009?",
+    "target": "In NridgHt, the regional median sale price decreased by -23.75% year-over-year up to 2009. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0079 mean for the CollgCr neighborhood in 2007?",
+    "target": "In CollgCr, the regional median sale price increased by 0.79% year-over-year up to 2007. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0697 mean for the NWAmes neighborhood in 2007?",
+    "target": "In NWAmes, the regional median sale price decreased by -6.97% year-over-year up to 2007. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in CollgCr: Price_Elasticity=-0.0892. The regional median is the reference point.",
+    "target": "This house sold moderately below the regional median price in CollgCr (price elasticity=-0.0892, i.e. -8.92% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Crawfor, Price=$96,500.",
+    "target": "No, this property in Crawfor is not near a railroad (Condition_1=Norm). It sold for $96,500 in 2007."
+  },
+  {
+    "prompt": "How active was the CollgCr market in 2008? Sales count for (Region=CollgCr, Year_Sold=2008) is 36.",
+    "target": "In 2008, 36 transactions were recorded in CollgCr. This is a moderately active market."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Timber, Price=$270,000.",
+    "target": "No, this property in Timber is not near a railroad (Condition_1=Norm). It sold for $270,000 in 2007."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0318 mean for the SawyerW neighborhood in 2009?",
+    "target": "In SawyerW, the regional median sale price increased by 3.18% year-over-year up to 2009. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NoRidge, Price=$290,000, Product_Category=house, Year_Sold=2006, Overall_Qual=8, Garage_Cars=3, Discount=a standard market sale.",
+    "target": "A house in NoRidge sold for $290,000 in 2006. The property has good overall quality (score 8/10) and 3 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NAmes, Price=$160,000, Product_Category=house, Year_Sold=2006, Overall_Qual=6, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in NAmes sold for $160,000 in 2006. The property has average overall quality (score 6/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Gilbert: Price_Elasticity=0.0387. The regional median is the reference point.",
+    "target": "This house sold slightly above the regional median price in Gilbert (price elasticity=0.0387, i.e. +3.87% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.1457 mean for the Sawyer neighborhood in 2007?",
+    "target": "In Sawyer, the regional median sale price decreased by -14.57% year-over-year up to 2007. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Gilbert: Price_Elasticity=0.2111. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in Gilbert (price elasticity=0.2111, i.e. +21.11% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NAmes: Price_Elasticity=-0.2507. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in NAmes (price elasticity=-0.2507, i.e. -25.07% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Timber: Price_Elasticity=0.3678. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in Timber (price elasticity=0.3678, i.e. +36.78% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in IDOTRR: Price_Elasticity=0.2330. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in IDOTRR (price elasticity=0.2330, i.e. +23.30% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Gilbert: Price_Elasticity=0.7680. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in Gilbert (price elasticity=0.7680, i.e. +76.80% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=OldTown, Price=$107,500.",
+    "target": "No, this property in OldTown is not near a railroad (Condition_1=Norm). It sold for $107,500 in 2009."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in CollgCr: Price_Elasticity=-0.3712. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in CollgCr (price elasticity=-0.3712, i.e. -37.12% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=CollgCr, Price=$164,990, Product_Category=house, Year_Sold=2006, Overall_Qual=7, Garage_Cars=2, Discount=a partial sale.",
+    "target": "A house in CollgCr sold for $164,990 in 2006. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a partial sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Timber: Price_Elasticity=-0.2997. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in Timber (price elasticity=-0.2997, i.e. -29.97% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Edwards, Price=$83,000.",
+    "target": "No, this property in Edwards is not near a railroad (Condition_1=Norm). It sold for $83,000 in 2010."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Somerst, Price=$215,200, Product_Category=house, Year_Sold=2010, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Somerst sold for $215,200 in 2010. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NWAmes: Price_Elasticity=-0.0705. The regional median is the reference point.",
+    "target": "This house sold slightly below the regional median price in NWAmes (price elasticity=-0.0705, i.e. -7.05% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NoRidge: Price_Elasticity=1.5041. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in NoRidge (price elasticity=1.5041, i.e. +150.41% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=BrkSide, Price=$113,000.",
+    "target": "No, this property in BrkSide is not near a railroad (Condition_1=Norm). It sold for $113,000 in 2006."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Mitchel, Price=$84,500.",
+    "target": "No, this property in Mitchel is not near a railroad (Condition_1=Norm). It sold for $84,500 in 2006."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Gilbert, Price=$173,000.",
+    "target": "No, this property in Gilbert is not near a railroad (Condition_1=Norm). It sold for $173,000 in 2009."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Somerst, Price=$307,000, Product_Category=house, Year_Sold=2007, Overall_Qual=8, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Somerst sold for $307,000 in 2007. The property has good overall quality (score 8/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=OldTown, Price=$128,000, Product_Category=house, Year_Sold=2008, Overall_Qual=6, Garage_Cars=0, Discount=a standard market sale.",
+    "target": "A house in OldTown sold for $128,000 in 2008. The property has average overall quality (score 6/10) and 0 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=OldTown, Price=$112,500, Product_Category=house, Year_Sold=2008, Overall_Qual=5, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in OldTown sold for $112,500 in 2008. The property has average overall quality (score 5/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NAmes, Price=$144,000, Product_Category=house, Year_Sold=2007, Overall_Qual=5, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in NAmes sold for $144,000 in 2007. The property has average overall quality (score 5/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Edwards: Price_Elasticity=-0.4497. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in Edwards (price elasticity=-0.4497, i.e. -44.97% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NWAmes: Price_Elasticity=-0.0405. The regional median is the reference point.",
+    "target": "This house sold slightly below the regional median price in NWAmes (price elasticity=-0.0405, i.e. -4.05% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0318 mean for the SawyerW neighborhood in 2009?",
+    "target": "In SawyerW, the regional median sale price increased by 3.18% year-over-year up to 2009. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "How active was the Edwards market in 2009? Sales count for (Region=Edwards, Year_Sold=2009) is 27.",
+    "target": "In 2009, 27 transactions were recorded in Edwards. This is a moderately active market."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Somerst, Price=$340,000.",
+    "target": "No, this property in Somerst is not near a railroad (Condition_1=Norm). It sold for $340,000 in 2007."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0165 mean for the NAmes neighborhood in 2007?",
+    "target": "In NAmes, the regional median sale price increased by 1.65% year-over-year up to 2007. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.2628 mean for the StoneBr neighborhood in 2007?",
+    "target": "In StoneBr, the regional median sale price decreased by -26.28% year-over-year up to 2007. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Sawyer, Price=$132,500.",
+    "target": "No, this property in Sawyer is not near a railroad (Condition_1=Norm). It sold for $132,500 in 2007."
+  },
+  {
+    "prompt": "How active was the SawyerW market in 2010? Sales count for (Region=SawyerW, Year_Sold=2010) is 13.",
+    "target": "In 2010, 13 transactions were recorded in SawyerW. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NAmes, Price=$119,000, Product_Category=house, Year_Sold=2007, Overall_Qual=5, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in NAmes sold for $119,000 in 2007. The property has average overall quality (score 5/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Timber, Price=$283,463.",
+    "target": "No, this property in Timber is not near a railroad (Condition_1=Norm). It sold for $283,463 in 2007."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=OldTown, Price=$117,500, Product_Category=house, Year_Sold=2007, Overall_Qual=6, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in OldTown sold for $117,500 in 2007. The property has average overall quality (score 6/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Artery, Region=OldTown, Price=$168,000.",
+    "target": "No, this property in OldTown is not near a railroad (Condition_1=Artery). It sold for $168,000 in 2009."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=CollgCr, Price=$191,000, Product_Category=house, Year_Sold=2008, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in CollgCr sold for $191,000 in 2008. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=OldTown, Price=$96,500.",
+    "target": "No, this property in OldTown is not near a railroad (Condition_1=Norm). It sold for $96,500 in 2010."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=SawyerW, Price=$153,900, Product_Category=house, Year_Sold=2008, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in SawyerW sold for $153,900 in 2008. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Edwards, Price=$165,400, Product_Category=house, Year_Sold=2008, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Edwards sold for $165,400 in 2008. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=OldTown, Price=$133,900, Product_Category=house, Year_Sold=2007, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in OldTown sold for $133,900 in 2007. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=BrkSide, Price=$116,500.",
+    "target": "No, this property in BrkSide is not near a railroad (Condition_1=Norm). It sold for $116,500 in 2010."
+  },
+  {
+    "prompt": "How active was the NAmes market in 2007? Sales count for (Region=NAmes, Year_Sold=2007) is 53.",
+    "target": "In 2007, 53 transactions were recorded in NAmes. This is a high-volume market, indicating strong buyer activity."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NridgHt, Price=$325,300.",
+    "target": "No, this property in NridgHt is not near a railroad (Condition_1=Norm). It sold for $325,300 in 2006."
+  },
+  {
+    "prompt": "How active was the ClearCr market in 2007? Sales count for (Region=ClearCr, Year_Sold=2007) is 6.",
+    "target": "In 2007, 6 transactions were recorded in ClearCr. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0430 mean for the NAmes neighborhood in 2009?",
+    "target": "In NAmes, the regional median sale price decreased by -4.30% year-over-year up to 2009. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Feedr, Region=ClearCr, Price=$200,000.",
+    "target": "No, this property in ClearCr is not near a railroad (Condition_1=Feedr). It sold for $200,000 in 2008."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.1563 mean for the Edwards neighborhood in 2009?",
+    "target": "In Edwards, the regional median sale price decreased by -15.63% year-over-year up to 2009. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=CollgCr, Price=$272,000, Product_Category=house, Year_Sold=2010, Overall_Qual=8, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in CollgCr sold for $272,000 in 2010. The property has good overall quality (score 8/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Somerst, Price=$173,733.",
+    "target": "No, this property in Somerst is not near a railroad (Condition_1=Norm). It sold for $173,733 in 2009."
+  },
+  {
+    "prompt": "How active was the OldTown market in 2009? Sales count for (Region=OldTown, Year_Sold=2009) is 24.",
+    "target": "In 2009, 24 transactions were recorded in OldTown. This is a moderately active market."
+  },
+  {
+    "prompt": "How active was the NWAmes market in 2006? Sales count for (Region=NWAmes, Year_Sold=2006) is 18.",
+    "target": "In 2006, 18 transactions were recorded in NWAmes. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0430 mean for the NAmes neighborhood in 2009?",
+    "target": "In NAmes, the regional median sale price decreased by -4.30% year-over-year up to 2009. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=CollgCr, Price=$148,000.",
+    "target": "No, this property in CollgCr is not near a railroad (Condition_1=Norm). It sold for $148,000 in 2006."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=CollgCr, Price=$144,000, Product_Category=house, Year_Sold=2009, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in CollgCr sold for $144,000 in 2009. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the CollgCr market in 2010? Sales count for (Region=CollgCr, Year_Sold=2010) is 13.",
+    "target": "In 2010, 13 transactions were recorded in CollgCr. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "How active was the CollgCr market in 2008? Sales count for (Region=CollgCr, Year_Sold=2008) is 36.",
+    "target": "In 2008, 36 transactions were recorded in CollgCr. This is a moderately active market."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0318 mean for the SawyerW neighborhood in 2009?",
+    "target": "In SawyerW, the regional median sale price increased by 3.18% year-over-year up to 2009. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Veenker, Price=$324,000, Product_Category=house, Year_Sold=2008, Overall_Qual=8, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Veenker sold for $324,000 in 2008. The property has good overall quality (score 8/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NAmes, Price=$133,000, Product_Category=house, Year_Sold=2006, Overall_Qual=6, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in NAmes sold for $133,000 in 2006. The property has average overall quality (score 6/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Sawyer, Price=$127,000.",
+    "target": "No, this property in Sawyer is not near a railroad (Condition_1=Norm). It sold for $127,000 in 2007."
+  },
+  {
+    "prompt": "How active was the SawyerW market in 2007? Sales count for (Region=SawyerW, Year_Sold=2007) is 12.",
+    "target": "In 2007, 12 transactions were recorded in SawyerW. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0916 mean for the NoRidge neighborhood in 2009?",
+    "target": "In NoRidge, the regional median sale price increased by 9.16% year-over-year up to 2009. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Edwards: Price_Elasticity=0.0719. The regional median is the reference point.",
+    "target": "This house sold slightly above the regional median price in Edwards (price elasticity=0.0719, i.e. +7.19% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NWAmes: Price_Elasticity=0.4215. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in NWAmes (price elasticity=0.4215, i.e. +42.15% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Mitchel, Price=$172,000.",
+    "target": "No, this property in Mitchel is not near a railroad (Condition_1=Norm). It sold for $172,000 in 2008."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=CollgCr, Price=$213,000.",
+    "target": "No, this property in CollgCr is not near a railroad (Condition_1=Norm). It sold for $213,000 in 2010."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Edwards: Price_Elasticity=0.0144. The regional median is the reference point.",
+    "target": "This house sold very slightly above the regional median price in Edwards (price elasticity=0.0144, i.e. +1.44% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "How active was the ClearCr market in 2010? Sales count for (Region=ClearCr, Year_Sold=2010) is 4.",
+    "target": "In 2010, 4 transactions were recorded in ClearCr. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NAmes, Price=$135,000, Product_Category=house, Year_Sold=2007, Overall_Qual=5, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in NAmes sold for $135,000 in 2007. The property has average overall quality (score 5/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the NridgHt market in 2010? Sales count for (Region=NridgHt, Year_Sold=2010) is 8.",
+    "target": "In 2010, 8 transactions were recorded in NridgHt. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NWAmes, Price=$175,500.",
+    "target": "No, this property in NWAmes is not near a railroad (Condition_1=Norm). It sold for $175,500 in 2008."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Edwards, Price=$119,000.",
+    "target": "No, this property in Edwards is not near a railroad (Condition_1=Norm). It sold for $119,000 in 2008."
+  },
+  {
+    "prompt": "How active was the NridgHt market in 2009? Sales count for (Region=NridgHt, Year_Sold=2009) is 22.",
+    "target": "In 2009, 22 transactions were recorded in NridgHt. This is a moderately active market."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=StoneBr, Price=$170,000, Product_Category=house, Year_Sold=2007, Overall_Qual=8, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in StoneBr sold for $170,000 in 2007. The property has good overall quality (score 8/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Mitchel, Price=$130,500.",
+    "target": "No, this property in Mitchel is not near a railroad (Condition_1=Norm). It sold for $130,500 in 2008."
+  },
+  {
+    "prompt": "How active was the IDOTRR market in 2006? Sales count for (Region=IDOTRR, Year_Sold=2006) is 7.",
+    "target": "In 2006, 7 transactions were recorded in IDOTRR. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Crawfor: Price_Elasticity=0.1165. The regional median is the reference point.",
+    "target": "This house sold moderately above the regional median price in Crawfor (price elasticity=0.1165, i.e. +11.65% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in BrkSide: Price_Elasticity=0.6492. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in BrkSide (price elasticity=0.6492, i.e. +64.92% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NAmes, Price=$157,000, Product_Category=house, Year_Sold=2008, Overall_Qual=6, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in NAmes sold for $157,000 in 2008. The property has average overall quality (score 6/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Blueste: Price_Elasticity=0.0982. The regional median is the reference point.",
+    "target": "This house sold moderately above the regional median price in Blueste (price elasticity=0.0982, i.e. +9.82% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NAmes, Price=$140,000, Product_Category=house, Year_Sold=2008, Overall_Qual=6, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in NAmes sold for $140,000 in 2008. The property has average overall quality (score 6/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the OldTown market in 2009? Sales count for (Region=OldTown, Year_Sold=2009) is 24.",
+    "target": "In 2009, 24 transactions were recorded in OldTown. This is a moderately active market."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0446 mean for the Edwards neighborhood in 2010?",
+    "target": "In Edwards, the regional median sale price decreased by -4.46% year-over-year up to 2010. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NAmes, Price=$133,700, Product_Category=house, Year_Sold=2006, Overall_Qual=5, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in NAmes sold for $133,700 in 2006. The property has average overall quality (score 5/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NridgHt: Price_Elasticity=-0.4100. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in NridgHt (price elasticity=-0.4100, i.e. -41.00% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=BrDale, Price=$119,500, Product_Category=house, Year_Sold=2009, Overall_Qual=5, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in BrDale sold for $119,500 in 2009. The property has average overall quality (score 5/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0438 mean for the Sawyer neighborhood in 2010?",
+    "target": "In Sawyer, the regional median sale price decreased by -4.38% year-over-year up to 2010. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "How active was the CollgCr market in 2010? Sales count for (Region=CollgCr, Year_Sold=2010) is 13.",
+    "target": "In 2010, 13 transactions were recorded in CollgCr. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NAmes: Price_Elasticity=0.4779. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in NAmes (price elasticity=0.4779, i.e. +47.79% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NridgHt, Price=$173,000, Product_Category=house, Year_Sold=2009, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in NridgHt sold for $173,000 in 2009. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the Mitchel market in 2009? Sales count for (Region=Mitchel, Year_Sold=2009) is 13.",
+    "target": "In 2009, 13 transactions were recorded in Mitchel. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "How active was the SawyerW market in 2009? Sales count for (Region=SawyerW, Year_Sold=2009) is 15.",
+    "target": "In 2009, 15 transactions were recorded in SawyerW. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NAmes: Price_Elasticity=0.0000. The regional median is the reference point.",
+    "target": "This house sold very slightly below the regional median price in NAmes (price elasticity=0.0000, i.e. +0.00% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in CollgCr: Price_Elasticity=-0.2698. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in CollgCr (price elasticity=-0.2698, i.e. -26.98% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Mitchel, Price=$129,500.",
+    "target": "No, this property in Mitchel is not near a railroad (Condition_1=Norm). It sold for $129,500 in 2007."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=ClearCr, Price=$260,000, Product_Category=house, Year_Sold=2010, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in ClearCr sold for $260,000 in 2010. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the NoRidge market in 2007? Sales count for (Region=NoRidge, Year_Sold=2007) is 11.",
+    "target": "In 2007, 11 transactions were recorded in NoRidge. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in BrkSide: Price_Elasticity=0.0539. The regional median is the reference point.",
+    "target": "This house sold slightly above the regional median price in BrkSide (price elasticity=0.0539, i.e. +5.39% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in BrkSide: Price_Elasticity=-0.0788. The regional median is the reference point.",
+    "target": "This house sold slightly below the regional median price in BrkSide (price elasticity=-0.0788, i.e. -7.88% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Somerst: Price_Elasticity=-0.3304. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in Somerst (price elasticity=-0.3304, i.e. -33.04% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NWAmes, Price=$190,000.",
+    "target": "No, this property in NWAmes is not near a railroad (Condition_1=Norm). It sold for $190,000 in 2010."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=SawyerW, Price=$215,000.",
+    "target": "No, this property in SawyerW is not near a railroad (Condition_1=Norm). It sold for $215,000 in 2006."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in CollgCr: Price_Elasticity=0.0396. The regional median is the reference point.",
+    "target": "This house sold slightly above the regional median price in CollgCr (price elasticity=0.0396, i.e. +3.96% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "How active was the NoRidge market in 2006? Sales count for (Region=NoRidge, Year_Sold=2006) is 9.",
+    "target": "In 2006, 9 transactions were recorded in NoRidge. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0687 mean for the Somerst neighborhood in 2009?",
+    "target": "In Somerst, the regional median sale price increased by 6.87% year-over-year up to 2009. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in ClearCr: Price_Elasticity=-0.1011. The regional median is the reference point.",
+    "target": "This house sold moderately below the regional median price in ClearCr (price elasticity=-0.1011, i.e. -10.11% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "How active was the CollgCr market in 2008? Sales count for (Region=CollgCr, Year_Sold=2008) is 36.",
+    "target": "In 2008, 36 transactions were recorded in CollgCr. This is a moderately active market."
+  },
+  {
+    "prompt": "How active was the NridgHt market in 2010? Sales count for (Region=NridgHt, Year_Sold=2010) is 8.",
+    "target": "In 2010, 8 transactions were recorded in NridgHt. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NAmes, Price=$181,000.",
+    "target": "No, this property in NAmes is not near a railroad (Condition_1=Norm). It sold for $181,000 in 2008."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NWAmes, Price=$152,000, Product_Category=house, Year_Sold=2007, Overall_Qual=5, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in NWAmes sold for $152,000 in 2007. The property has average overall quality (score 5/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.1525 mean for the OldTown neighborhood in 2009?",
+    "target": "In OldTown, the regional median sale price decreased by -15.25% year-over-year up to 2009. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Gilbert: Price_Elasticity=-0.0945. The regional median is the reference point.",
+    "target": "This house sold moderately below the regional median price in Gilbert (price elasticity=-0.0945, i.e. -9.45% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NWAmes, Price=$181,000, Product_Category=house, Year_Sold=2009, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in NWAmes sold for $181,000 in 2009. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NAmes: Price_Elasticity=-0.2143. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in NAmes (price elasticity=-0.2143, i.e. -21.43% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NWAmes: Price_Elasticity=0.0935. The regional median is the reference point.",
+    "target": "This house sold moderately above the regional median price in NWAmes (price elasticity=0.0935, i.e. +9.35% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "How active was the Gilbert market in 2006? Sales count for (Region=Gilbert, Year_Sold=2006) is 24.",
+    "target": "In 2006, 24 transactions were recorded in Gilbert. This is a moderately active market."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Artery, Region=OldTown, Price=$105,000.",
+    "target": "No, this property in OldTown is not near a railroad (Condition_1=Artery). It sold for $105,000 in 2009."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in BrkSide: Price_Elasticity=0.0298. The regional median is the reference point.",
+    "target": "This house sold very slightly above the regional median price in BrkSide (price elasticity=0.0298, i.e. +2.98% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "How active was the Blmngtn market in 2006? Sales count for (Region=Blmngtn, Year_Sold=2006) is 7.",
+    "target": "In 2006, 7 transactions were recorded in Blmngtn. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.1270 mean for the Mitchel neighborhood in 2007?",
+    "target": "In Mitchel, the regional median sale price decreased by -12.70% year-over-year up to 2007. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=RRAn, Region=Gilbert, Price=$178,900.",
+    "target": "Yes, this property in Gilbert is located near a railroad (Condition_1=RRAn). Railroad proximity is generally associated with lower price elasticity and can negatively affect perceived property value."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=PosA, Region=NAmes, Price=$242,000.",
+    "target": "No, this property in NAmes is not near a railroad (Condition_1=PosA). It sold for $242,000 in 2008."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in SawyerW: Price_Elasticity=-0.3335. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in SawyerW (price elasticity=-0.3335, i.e. -33.35% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=CollgCr, Price=$144,000, Product_Category=house, Year_Sold=2008, Overall_Qual=5, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in CollgCr sold for $144,000 in 2008. The property has average overall quality (score 5/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Gilbert, Price=$162,000, Product_Category=house, Year_Sold=2007, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Gilbert sold for $162,000 in 2007. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Feedr, Region=NAmes, Price=$146,000.",
+    "target": "No, this property in NAmes is not near a railroad (Condition_1=Feedr). It sold for $146,000 in 2006."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Sawyer, Price=$62,383.",
+    "target": "No, this property in Sawyer is not near a railroad (Condition_1=Norm). It sold for $62,383 in 2009."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Edwards, Price=$159,500.",
+    "target": "No, this property in Edwards is not near a railroad (Condition_1=Norm). It sold for $159,500 in 2009."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=BrkSide, Price=$210,000, Product_Category=house, Year_Sold=2007, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in BrkSide sold for $210,000 in 2007. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in BrkSide: Price_Elasticity=0.1384. The regional median is the reference point.",
+    "target": "This house sold moderately above the regional median price in BrkSide (price elasticity=0.1384, i.e. +13.84% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Edwards: Price_Elasticity=0.0760. The regional median is the reference point.",
+    "target": "This house sold slightly above the regional median price in Edwards (price elasticity=0.0760, i.e. +7.60% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NAmes: Price_Elasticity=0.0214. The regional median is the reference point.",
+    "target": "This house sold very slightly above the regional median price in NAmes (price elasticity=0.0214, i.e. +2.14% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=CollgCr, Price=$204,900.",
+    "target": "No, this property in CollgCr is not near a railroad (Condition_1=Norm). It sold for $204,900 in 2006."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NAmes: Price_Elasticity=0.1071. The regional median is the reference point.",
+    "target": "This house sold moderately above the regional median price in NAmes (price elasticity=0.1071, i.e. +10.71% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Edwards, Price=$127,500, Product_Category=apartment, Year_Sold=2006, Overall_Qual=6, Garage_Cars=0, Discount=an adjoining land purchase.",
+    "target": "A apartment in Edwards sold for $127,500 in 2006. The property has average overall quality (score 6/10) and 0 garage parking spots. It was an adjoining land purchase."
+  },
+  {
+    "prompt": "How active was the NAmes market in 2007? Sales count for (Region=NAmes, Year_Sold=2007) is 53.",
+    "target": "In 2007, 53 transactions were recorded in NAmes. This is a high-volume market, indicating strong buyer activity."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NAmes, Price=$140,000.",
+    "target": "No, this property in NAmes is not near a railroad (Condition_1=Norm). It sold for $140,000 in 2009."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0293 mean for the Timber neighborhood in 2009?",
+    "target": "In Timber, the regional median sale price decreased by -2.93% year-over-year up to 2009. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "How active was the CollgCr market in 2006? Sales count for (Region=CollgCr, Year_Sold=2006) is 32.",
+    "target": "In 2006, 32 transactions were recorded in CollgCr. This is a moderately active market."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0603 mean for the NridgHt neighborhood in 2010?",
+    "target": "In NridgHt, the regional median sale price decreased by -6.03% year-over-year up to 2010. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "How active was the NAmes market in 2007? Sales count for (Region=NAmes, Year_Sold=2007) is 53.",
+    "target": "In 2007, 53 transactions were recorded in NAmes. This is a high-volume market, indicating strong buyer activity."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Edwards: Price_Elasticity=-0.2361. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in Edwards (price elasticity=-0.2361, i.e. -23.61% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Gilbert, Price=$173,000, Product_Category=house, Year_Sold=2006, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Gilbert sold for $173,000 in 2006. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Feedr, Region=SawyerW, Price=$153,337.",
+    "target": "No, this property in SawyerW is not near a railroad (Condition_1=Feedr). It sold for $153,337 in 2009."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0026 mean for the Blmngtn neighborhood in 2009?",
+    "target": "In Blmngtn, the regional median sale price increased by 0.26% year-over-year up to 2009. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0165 mean for the NAmes neighborhood in 2007?",
+    "target": "In NAmes, the regional median sale price increased by 1.65% year-over-year up to 2007. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "How active was the CollgCr market in 2009? Sales count for (Region=CollgCr, Year_Sold=2009) is 39.",
+    "target": "In 2009, 39 transactions were recorded in CollgCr. This is a moderately active market."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0916 mean for the NoRidge neighborhood in 2009?",
+    "target": "In NoRidge, the regional median sale price increased by 9.16% year-over-year up to 2009. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.1493 mean for the StoneBr neighborhood in 2010?",
+    "target": "In StoneBr, the regional median sale price decreased by -14.93% year-over-year up to 2010. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in OldTown: Price_Elasticity=-0.0933. The regional median is the reference point.",
+    "target": "This house sold moderately below the regional median price in OldTown (price elasticity=-0.0933, i.e. -9.33% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Edwards: Price_Elasticity=0.0349. The regional median is the reference point.",
+    "target": "This house sold slightly above the regional median price in Edwards (price elasticity=0.0349, i.e. +3.49% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "How active was the NAmes market in 2007? Sales count for (Region=NAmes, Year_Sold=2007) is 53.",
+    "target": "In 2007, 53 transactions were recorded in NAmes. This is a high-volume market, indicating strong buyer activity."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NWAmes, Price=$197,900, Product_Category=house, Year_Sold=2007, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in NWAmes sold for $197,900 in 2007. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Sawyer, Price=$158,900.",
+    "target": "No, this property in Sawyer is not near a railroad (Condition_1=Norm). It sold for $158,900 in 2010."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0916 mean for the NoRidge neighborhood in 2009?",
+    "target": "In NoRidge, the regional median sale price increased by 9.16% year-over-year up to 2009. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a apartment in OldTown: Price_Elasticity=0.0462. The regional median is the reference point.",
+    "target": "This apartment sold slightly above the regional median price in OldTown (price elasticity=0.0462, i.e. +4.62% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "How active was the SawyerW market in 2010? Sales count for (Region=SawyerW, Year_Sold=2010) is 13.",
+    "target": "In 2010, 13 transactions were recorded in SawyerW. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Artery, Region=NAmes, Price=$97,500.",
+    "target": "No, this property in NAmes is not near a railroad (Condition_1=Artery). It sold for $97,500 in 2010."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Feedr, Region=BrkSide, Price=$100,000.",
+    "target": "No, this property in BrkSide is not near a railroad (Condition_1=Feedr). It sold for $100,000 in 2009."
+  },
+  {
+    "prompt": "How active was the NAmes market in 2007? Sales count for (Region=NAmes, Year_Sold=2007) is 53.",
+    "target": "In 2007, 53 transactions were recorded in NAmes. This is a high-volume market, indicating strong buyer activity."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NridgHt: Price_Elasticity=-0.1254. The regional median is the reference point.",
+    "target": "This house sold moderately below the regional median price in NridgHt (price elasticity=-0.1254, i.e. -12.54% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NoRidge, Price=$268,000, Product_Category=house, Year_Sold=2006, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in NoRidge sold for $268,000 in 2006. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the NridgHt market in 2007? Sales count for (Region=NridgHt, Year_Sold=2007) is 18.",
+    "target": "In 2007, 18 transactions were recorded in NridgHt. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=SWISU, Price=$160,000, Product_Category=house, Year_Sold=2006, Overall_Qual=5, Garage_Cars=0, Discount=a standard market sale.",
+    "target": "A house in SWISU sold for $160,000 in 2006. The property has average overall quality (score 5/10) and 0 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0511 mean for the NWAmes neighborhood in 2009?",
+    "target": "In NWAmes, the regional median sale price increased by 5.11% year-over-year up to 2009. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Gilbert, Price=$222,000.",
+    "target": "No, this property in Gilbert is not near a railroad (Condition_1=Norm). It sold for $222,000 in 2006."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=CollgCr, Price=$148,000, Product_Category=house, Year_Sold=2006, Overall_Qual=5, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in CollgCr sold for $148,000 in 2006. The property has average overall quality (score 5/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the Sawyer market in 2010? Sales count for (Region=Sawyer, Year_Sold=2010) is 16.",
+    "target": "In 2010, 16 transactions were recorded in Sawyer. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "How active was the NAmes market in 2007? Sales count for (Region=NAmes, Year_Sold=2007) is 53.",
+    "target": "In 2007, 53 transactions were recorded in NAmes. This is a high-volume market, indicating strong buyer activity."
+  },
+  {
+    "prompt": "How active was the Sawyer market in 2009? Sales count for (Region=Sawyer, Year_Sold=2009) is 11.",
+    "target": "In 2009, 11 transactions were recorded in Sawyer. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "How active was the NAmes market in 2007? Sales count for (Region=NAmes, Year_Sold=2007) is 53.",
+    "target": "In 2007, 53 transactions were recorded in NAmes. This is a high-volume market, indicating strong buyer activity."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Timber, Price=$187,500, Product_Category=house, Year_Sold=2007, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Timber sold for $187,500 in 2007. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=RRAn, Region=Gilbert, Price=$173,000.",
+    "target": "Yes, this property in Gilbert is located near a railroad (Condition_1=RRAn). Railroad proximity is generally associated with lower price elasticity and can negatively affect perceived property value."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Gilbert: Price_Elasticity=-0.0442. The regional median is the reference point.",
+    "target": "This house sold slightly below the regional median price in Gilbert (price elasticity=-0.0442, i.e. -4.42% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NAmes: Price_Elasticity=0.0821. The regional median is the reference point.",
+    "target": "This house sold moderately above the regional median price in NAmes (price elasticity=0.0821, i.e. +8.21% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.4507 mean for the SWISU neighborhood in 2007?",
+    "target": "In SWISU, the regional median sale price increased by 45.07% year-over-year up to 2007. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NAmes: Price_Elasticity=0.0679. The regional median is the reference point.",
+    "target": "This house sold slightly above the regional median price in NAmes (price elasticity=0.0679, i.e. +6.79% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NridgHt: Price_Elasticity=-0.1959. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in NridgHt (price elasticity=-0.1959, i.e. -19.59% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Edwards: Price_Elasticity=0.5277. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in Edwards (price elasticity=0.5277, i.e. +52.77% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Edwards, Price=$130,000.",
+    "target": "No, this property in Edwards is not near a railroad (Condition_1=Norm). It sold for $130,000 in 2006."
+  },
+  {
+    "prompt": "How active was the OldTown market in 2009? Sales count for (Region=OldTown, Year_Sold=2009) is 24.",
+    "target": "In 2009, 24 transactions were recorded in OldTown. This is a moderately active market."
+  },
+  {
+    "prompt": "How active was the Gilbert market in 2008? Sales count for (Region=Gilbert, Year_Sold=2008) is 10.",
+    "target": "In 2008, 10 transactions were recorded in Gilbert. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.1360 mean for the OldTown neighborhood in 2008?",
+    "target": "In OldTown, the regional median sale price increased by 13.60% year-over-year up to 2008. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=BrkSide, Price=$128,000.",
+    "target": "No, this property in BrkSide is not near a railroad (Condition_1=Norm). It sold for $128,000 in 2009."
+  },
+  {
+    "prompt": "How active was the ClearCr market in 2010? Sales count for (Region=ClearCr, Year_Sold=2010) is 4.",
+    "target": "In 2010, 4 transactions were recorded in ClearCr. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=SawyerW, Price=$228,500.",
+    "target": "No, this property in SawyerW is not near a railroad (Condition_1=Norm). It sold for $228,500 in 2007."
+  },
+  {
+    "prompt": "How active was the Sawyer market in 2008? Sales count for (Region=Sawyer, Year_Sold=2008) is 13.",
+    "target": "In 2008, 13 transactions were recorded in Sawyer. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Feedr, Region=NAmes, Price=$129,900.",
+    "target": "No, this property in NAmes is not near a railroad (Condition_1=Feedr). It sold for $129,900 in 2006."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.2736 mean for the SWISU neighborhood in 2008?",
+    "target": "In SWISU, the regional median sale price decreased by -27.36% year-over-year up to 2008. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Sawyer: Price_Elasticity=-0.1859. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in Sawyer (price elasticity=-0.1859, i.e. -18.59% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Veenker: Price_Elasticity=-0.2546. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in Veenker (price elasticity=-0.2546, i.e. -25.46% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=RRAn, Region=BrkSide, Price=$129,000.",
+    "target": "Yes, this property in BrkSide is located near a railroad (Condition_1=RRAn). Railroad proximity is generally associated with lower price elasticity and can negatively affect perceived property value."
+  },
+  {
+    "prompt": "How active was the ClearCr market in 2007? Sales count for (Region=ClearCr, Year_Sold=2007) is 6.",
+    "target": "In 2007, 6 transactions were recorded in ClearCr. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "How active was the BrkSide market in 2008? Sales count for (Region=BrkSide, Year_Sold=2008) is 14.",
+    "target": "In 2008, 14 transactions were recorded in BrkSide. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NAmes, Price=$138,800.",
+    "target": "No, this property in NAmes is not near a railroad (Condition_1=Norm). It sold for $138,800 in 2006."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NWAmes, Price=$227,000.",
+    "target": "No, this property in NWAmes is not near a railroad (Condition_1=Norm). It sold for $227,000 in 2009."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.1525 mean for the OldTown neighborhood in 2009?",
+    "target": "In OldTown, the regional median sale price decreased by -15.25% year-over-year up to 2009. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0511 mean for the NWAmes neighborhood in 2009?",
+    "target": "In NWAmes, the regional median sale price increased by 5.11% year-over-year up to 2009. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0574 mean for the CollgCr neighborhood in 2008?",
+    "target": "In CollgCr, the regional median sale price decreased by -5.74% year-over-year up to 2008. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in ClearCr: Price_Elasticity=-0.0512. The regional median is the reference point.",
+    "target": "This house sold slightly below the regional median price in ClearCr (price elasticity=-0.0512, i.e. -5.12% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in IDOTRR: Price_Elasticity=0.0485. The regional median is the reference point.",
+    "target": "This house sold slightly above the regional median price in IDOTRR (price elasticity=0.0485, i.e. +4.85% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=SawyerW, Price=$179,000, Product_Category=house, Year_Sold=2007, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in SawyerW sold for $179,000 in 2007. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=OldTown, Price=$144,000, Product_Category=house, Year_Sold=2006, Overall_Qual=7, Garage_Cars=1, Discount=a contract with low interest.",
+    "target": "A house in OldTown sold for $144,000 in 2006. The property has good overall quality (score 7/10) and 1 garage parking spot. It was a contract with low interest."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NAmes, Price=$137,000, Product_Category=house, Year_Sold=2006, Overall_Qual=5, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in NAmes sold for $137,000 in 2006. The property has average overall quality (score 5/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Feedr, Region=Edwards, Price=$81,000.",
+    "target": "No, this property in Edwards is not near a railroad (Condition_1=Feedr). It sold for $81,000 in 2006."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Crawfor: Price_Elasticity=0.2935. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in Crawfor (price elasticity=0.2935, i.e. +29.35% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Somerst, Price=$171,900, Product_Category=house, Year_Sold=2008, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Somerst sold for $171,900 in 2008. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NWAmes, Price=$170,000.",
+    "target": "No, this property in NWAmes is not near a railroad (Condition_1=Norm). It sold for $170,000 in 2010."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=OldTown, Price=$144,000, Product_Category=apartment, Year_Sold=2010, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A apartment in OldTown sold for $144,000 in 2010. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the NoRidge market in 2006? Sales count for (Region=NoRidge, Year_Sold=2006) is 9.",
+    "target": "In 2006, 9 transactions were recorded in NoRidge. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Timber: Price_Elasticity=-0.2297. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in Timber (price elasticity=-0.2297, i.e. -22.97% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NAmes, Price=$140,000, Product_Category=house, Year_Sold=2009, Overall_Qual=6, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in NAmes sold for $140,000 in 2009. The property has average overall quality (score 6/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Crawfor, Price=$224,000, Product_Category=house, Year_Sold=2008, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Crawfor sold for $224,000 in 2008. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Gilbert, Price=$185,000.",
+    "target": "No, this property in Gilbert is not near a railroad (Condition_1=Norm). It sold for $185,000 in 2006."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Sawyer: Price_Elasticity=-0.0222. The regional median is the reference point.",
+    "target": "This house sold very slightly below the regional median price in Sawyer (price elasticity=-0.0222, i.e. -2.22% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Feedr, Region=NWAmes, Price=$173,000.",
+    "target": "No, this property in NWAmes is not near a railroad (Condition_1=Feedr). It sold for $173,000 in 2008."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Blmngtn, Price=$246,578.",
+    "target": "No, this property in Blmngtn is not near a railroad (Condition_1=Norm). It sold for $246,578 in 2006."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0165 mean for the NAmes neighborhood in 2007?",
+    "target": "In NAmes, the regional median sale price increased by 1.65% year-over-year up to 2007. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NAmes, Price=$163,000.",
+    "target": "No, this property in NAmes is not near a railroad (Condition_1=Norm). It sold for $163,000 in 2008."
+  },
+  {
+    "prompt": "How active was the SawyerW market in 2010? Sales count for (Region=SawyerW, Year_Sold=2010) is 13.",
+    "target": "In 2010, 13 transactions were recorded in SawyerW. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0446 mean for the Edwards neighborhood in 2010?",
+    "target": "In Edwards, the regional median sale price decreased by -4.46% year-over-year up to 2010. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "How active was the OldTown market in 2008? Sales count for (Region=OldTown, Year_Sold=2008) is 25.",
+    "target": "In 2008, 25 transactions were recorded in OldTown. This is a moderately active market."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Crawfor, Price=$154,900.",
+    "target": "No, this property in Crawfor is not near a railroad (Condition_1=Norm). It sold for $154,900 in 2009."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Crawfor, Price=$140,000, Product_Category=house, Year_Sold=2006, Overall_Qual=7, Garage_Cars=3, Discount=an abnormal sale.",
+    "target": "A house in Crawfor sold for $140,000 in 2006. The property has good overall quality (score 7/10) and 3 garage parking spots. It was an abnormal sale."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0079 mean for the CollgCr neighborhood in 2007?",
+    "target": "In CollgCr, the regional median sale price increased by 0.79% year-over-year up to 2007. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in CollgCr: Price_Elasticity=0.4984. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in CollgCr (price elasticity=0.4984, i.e. +49.84% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "How active was the NAmes market in 2010? Sales count for (Region=NAmes, Year_Sold=2010) is 33.",
+    "target": "In 2010, 33 transactions were recorded in NAmes. This is a moderately active market."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NridgHt: Price_Elasticity=0.0878. The regional median is the reference point.",
+    "target": "This house sold moderately above the regional median price in NridgHt (price elasticity=0.0878, i.e. +8.78% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in OldTown: Price_Elasticity=-0.1597. The regional median is the reference point.",
+    "target": "This house sold moderately below the regional median price in OldTown (price elasticity=-0.1597, i.e. -15.97% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NAmes, Price=$154,000.",
+    "target": "No, this property in NAmes is not near a railroad (Condition_1=Norm). It sold for $154,000 in 2010."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Sawyer, Price=$132,500, Product_Category=house, Year_Sold=2007, Overall_Qual=5, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in Sawyer sold for $132,500 in 2007. The property has average overall quality (score 5/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Sawyer, Price=$151,000.",
+    "target": "No, this property in Sawyer is not near a railroad (Condition_1=Norm). It sold for $151,000 in 2006."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NridgHt: Price_Elasticity=-0.1111. The regional median is the reference point.",
+    "target": "This house sold moderately below the regional median price in NridgHt (price elasticity=-0.1111, i.e. -11.11% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "How active was the SawyerW market in 2006? Sales count for (Region=SawyerW, Year_Sold=2006) is 8.",
+    "target": "In 2006, 8 transactions were recorded in SawyerW. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NridgHt, Price=$255,500.",
+    "target": "No, this property in NridgHt is not near a railroad (Condition_1=Norm). It sold for $255,500 in 2009."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0603 mean for the NridgHt neighborhood in 2010?",
+    "target": "In NridgHt, the regional median sale price decreased by -6.03% year-over-year up to 2010. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=IDOTRR, Price=$152,000, Product_Category=house, Year_Sold=2007, Overall_Qual=5, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in IDOTRR sold for $152,000 in 2007. The property has average overall quality (score 5/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=BrkSide, Price=$145,000.",
+    "target": "No, this property in BrkSide is not near a railroad (Condition_1=Norm). It sold for $145,000 in 2008."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0165 mean for the NAmes neighborhood in 2007?",
+    "target": "In NAmes, the regional median sale price increased by 1.65% year-over-year up to 2007. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NoRidge, Price=$310,000.",
+    "target": "No, this property in NoRidge is not near a railroad (Condition_1=Norm). It sold for $310,000 in 2006."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NAmes, Price=$153,000.",
+    "target": "No, this property in NAmes is not near a railroad (Condition_1=Norm). It sold for $153,000 in 2010."
+  },
+  {
+    "prompt": "How active was the OldTown market in 2009? Sales count for (Region=OldTown, Year_Sold=2009) is 24.",
+    "target": "In 2009, 24 transactions were recorded in OldTown. This is a moderately active market."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=SawyerW, Price=$142,500, Product_Category=house, Year_Sold=2006, Overall_Qual=6, Garage_Cars=2, Discount=an abnormal sale.",
+    "target": "A house in SawyerW sold for $142,500 in 2006. The property has average overall quality (score 6/10) and 2 garage parking spots. It was an abnormal sale."
+  },
+  {
+    "prompt": "How active was the BrkSide market in 2006? Sales count for (Region=BrkSide, Year_Sold=2006) is 15.",
+    "target": "In 2006, 15 transactions were recorded in BrkSide. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=ClearCr, Price=$256,000.",
+    "target": "No, this property in ClearCr is not near a railroad (Condition_1=Norm). It sold for $256,000 in 2008."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NAmes: Price_Elasticity=-0.1107. The regional median is the reference point.",
+    "target": "This house sold moderately below the regional median price in NAmes (price elasticity=-0.1107, i.e. -11.07% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "How active was the NoRidge market in 2007? Sales count for (Region=NoRidge, Year_Sold=2007) is 11.",
+    "target": "In 2007, 11 transactions were recorded in NoRidge. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.1649 mean for the NridgHt neighborhood in 2008?",
+    "target": "In NridgHt, the regional median sale price increased by 16.49% year-over-year up to 2008. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "How active was the CollgCr market in 2006? Sales count for (Region=CollgCr, Year_Sold=2006) is 32.",
+    "target": "In 2006, 32 transactions were recorded in CollgCr. This is a moderately active market."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Blueste, Price=$151,000.",
+    "target": "No, this property in Blueste is not near a railroad (Condition_1=Norm). It sold for $151,000 in 2008."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Blmngtn, Price=$178,740.",
+    "target": "No, this property in Blmngtn is not near a railroad (Condition_1=Norm). It sold for $178,740 in 2006."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NAmes, Price=$206,900, Product_Category=house, Year_Sold=2008, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in NAmes sold for $206,900 in 2008. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the ClearCr market in 2006? Sales count for (Region=ClearCr, Year_Sold=2006) is 6.",
+    "target": "In 2006, 6 transactions were recorded in ClearCr. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Somerst: Price_Elasticity=-0.0510. The regional median is the reference point.",
+    "target": "This house sold slightly below the regional median price in Somerst (price elasticity=-0.0510, i.e. -5.10% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NridgHt, Price=$451,950.",
+    "target": "No, this property in NridgHt is not near a railroad (Condition_1=Norm). It sold for $451,950 in 2009."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Gilbert, Price=$216,500.",
+    "target": "No, this property in Gilbert is not near a railroad (Condition_1=Norm). It sold for $216,500 in 2010."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NridgHt: Price_Elasticity=0.2540. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in NridgHt (price elasticity=0.2540, i.e. +25.40% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Blmngtn, Price=$175,900.",
+    "target": "No, this property in Blmngtn is not near a railroad (Condition_1=Norm). It sold for $175,900 in 2009."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Gilbert, Price=$274,725.",
+    "target": "No, this property in Gilbert is not near a railroad (Condition_1=Norm). It sold for $274,725 in 2006."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NAmes: Price_Elasticity=-0.0500. The regional median is the reference point.",
+    "target": "This house sold slightly below the regional median price in NAmes (price elasticity=-0.0500, i.e. -5.00% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in IDOTRR: Price_Elasticity=-0.4660. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in IDOTRR (price elasticity=-0.4660, i.e. -46.60% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Mitchel, Price=$188,000, Product_Category=apartment, Year_Sold=2006, Overall_Qual=5, Garage_Cars=2, Discount=a family sale.",
+    "target": "A apartment in Mitchel sold for $188,000 in 2006. The property has average overall quality (score 5/10) and 2 garage parking spots. It was a family sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NWAmes: Price_Elasticity=0.0388. The regional median is the reference point.",
+    "target": "This house sold slightly above the regional median price in NWAmes (price elasticity=0.0388, i.e. +3.88% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in CollgCr: Price_Elasticity=-0.1633. The regional median is the reference point.",
+    "target": "This house sold moderately below the regional median price in CollgCr (price elasticity=-0.1633, i.e. -16.33% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=OldTown, Price=$115,000.",
+    "target": "No, this property in OldTown is not near a railroad (Condition_1=Norm). It sold for $115,000 in 2008."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NAmes, Price=$165,000.",
+    "target": "No, this property in NAmes is not near a railroad (Condition_1=Norm). It sold for $165,000 in 2008."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Edwards: Price_Elasticity=-0.0965. The regional median is the reference point.",
+    "target": "This house sold moderately below the regional median price in Edwards (price elasticity=-0.0965, i.e. -9.65% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "How active was the NridgHt market in 2006? Sales count for (Region=NridgHt, Year_Sold=2006) is 17.",
+    "target": "In 2006, 17 transactions were recorded in NridgHt. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Edwards: Price_Elasticity=0.2731. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in Edwards (price elasticity=0.2731, i.e. +27.31% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Gilbert: Price_Elasticity=0.2735. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in Gilbert (price elasticity=0.2735, i.e. +27.35% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0958 mean for the IDOTRR neighborhood in 2007?",
+    "target": "In IDOTRR, the regional median sale price increased by 9.58% year-over-year up to 2007. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Edwards, Price=$112,000, Product_Category=house, Year_Sold=2009, Overall_Qual=4, Garage_Cars=1, Discount=an abnormal sale.",
+    "target": "A house in Edwards sold for $112,000 in 2009. The property has below-average overall quality (score 4/10) and 1 garage parking spot. It was an abnormal sale."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NridgHt, Price=$555,000, Product_Category=house, Year_Sold=2009, Overall_Qual=10, Garage_Cars=3, Discount=a standard market sale.",
+    "target": "A house in NridgHt sold for $555,000 in 2009. The property has excellent overall quality (score 10/10) and 3 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the Crawfor market in 2010? Sales count for (Region=Crawfor, Year_Sold=2010) is 3.",
+    "target": "In 2010, 3 transactions were recorded in Crawfor. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "How active was the OldTown market in 2008? Sales count for (Region=OldTown, Year_Sold=2008) is 25.",
+    "target": "In 2008, 25 transactions were recorded in OldTown. This is a moderately active market."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=CollgCr, Price=$138,000.",
+    "target": "No, this property in CollgCr is not near a railroad (Condition_1=Norm). It sold for $138,000 in 2009."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0769 mean for the Edwards neighborhood in 2007?",
+    "target": "In Edwards, the regional median sale price decreased by -7.69% year-over-year up to 2007. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "Which year had the most property sales in Ames? Provide the SQL.",
+    "target": "SELECT Year_Sold, COUNT(*) as cnt FROM sales GROUP BY Year_Sold ORDER BY cnt DESC LIMIT 1;\n2009 had the highest sales volume with 338 transactions."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NAmes: Price_Elasticity=0.0929. The regional median is the reference point.",
+    "target": "This house sold moderately above the regional median price in NAmes (price elasticity=0.0929, i.e. +9.29% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0376 mean for the OldTown neighborhood in 2007?",
+    "target": "In OldTown, the regional median sale price decreased by -3.76% year-over-year up to 2007. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NAmes, Price=$135,000, Product_Category=house, Year_Sold=2007, Overall_Qual=5, Garage_Cars=2, Discount=a family sale.",
+    "target": "A house in NAmes sold for $135,000 in 2007. The property has average overall quality (score 5/10) and 2 garage parking spots. It was a family sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in CollgCr: Price_Elasticity=0.2170. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in CollgCr (price elasticity=0.2170, i.e. +21.70% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Somerst, Price=$197,000.",
+    "target": "No, this property in Somerst is not near a railroad (Condition_1=Norm). It sold for $197,000 in 2006."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Timber: Price_Elasticity=-0.2341. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in Timber (price elasticity=-0.2341, i.e. -23.41% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0430 mean for the NAmes neighborhood in 2009?",
+    "target": "In NAmes, the regional median sale price decreased by -4.30% year-over-year up to 2009. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Edwards, Price=$60,000.",
+    "target": "No, this property in Edwards is not near a railroad (Condition_1=Norm). It sold for $60,000 in 2009."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Sawyer: Price_Elasticity=0.2185. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in Sawyer (price elasticity=0.2185, i.e. +21.85% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "How active was the NWAmes market in 2010? Sales count for (Region=NWAmes, Year_Sold=2010) is 7.",
+    "target": "In 2010, 7 transactions were recorded in NWAmes. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Edwards, Price=$98,000, Product_Category=house, Year_Sold=2008, Overall_Qual=5, Garage_Cars=0, Discount=a standard market sale.",
+    "target": "A house in Edwards sold for $98,000 in 2008. The property has average overall quality (score 5/10) and 0 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the NAmes market in 2007? Sales count for (Region=NAmes, Year_Sold=2007) is 53.",
+    "target": "In 2007, 53 transactions were recorded in NAmes. This is a high-volume market, indicating strong buyer activity."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Timber, Price=$204,000.",
+    "target": "No, this property in Timber is not near a railroad (Condition_1=Norm). It sold for $204,000 in 2007."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=CollgCr, Price=$197,900.",
+    "target": "No, this property in CollgCr is not near a railroad (Condition_1=Norm). It sold for $197,900 in 2009."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Gilbert, Price=$179,000, Product_Category=house, Year_Sold=2009, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Gilbert sold for $179,000 in 2009. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.1525 mean for the OldTown neighborhood in 2009?",
+    "target": "In OldTown, the regional median sale price decreased by -15.25% year-over-year up to 2009. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=SawyerW, Price=$159,000, Product_Category=house, Year_Sold=2008, Overall_Qual=5, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in SawyerW sold for $159,000 in 2008. The property has average overall quality (score 5/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the CollgCr market in 2009? Sales count for (Region=CollgCr, Year_Sold=2009) is 39.",
+    "target": "In 2009, 39 transactions were recorded in CollgCr. This is a moderately active market."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Gilbert, Price=$176,500, Product_Category=house, Year_Sold=2006, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Gilbert sold for $176,500 in 2006. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0769 mean for the Edwards neighborhood in 2007?",
+    "target": "In Edwards, the regional median sale price decreased by -7.69% year-over-year up to 2007. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in CollgCr: Price_Elasticity=0.2120. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in CollgCr (price elasticity=0.2120, i.e. +21.20% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Gilbert: Price_Elasticity=0.0000. The regional median is the reference point.",
+    "target": "This house sold very slightly below the regional median price in Gilbert (price elasticity=0.0000, i.e. +0.00% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "How active was the Crawfor market in 2007? Sales count for (Region=Crawfor, Year_Sold=2007) is 19.",
+    "target": "In 2007, 19 transactions were recorded in Crawfor. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Timber: Price_Elasticity=0.2828. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in Timber (price elasticity=0.2828, i.e. +28.28% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "How active was the Somerst market in 2007? Sales count for (Region=Somerst, Year_Sold=2007) is 24.",
+    "target": "In 2007, 24 transactions were recorded in Somerst. This is a moderately active market."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Somerst, Price=$252,678, Product_Category=house, Year_Sold=2009, Overall_Qual=7, Garage_Cars=2, Discount=a partial sale.",
+    "target": "A house in Somerst sold for $252,678 in 2009. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a partial sale."
+  },
+  {
+    "prompt": "How active was the NWAmes market in 2009? Sales count for (Region=NWAmes, Year_Sold=2009) is 21.",
+    "target": "In 2009, 21 transactions were recorded in NWAmes. This is a moderately active market."
+  },
+  {
+    "prompt": "How active was the CollgCr market in 2006? Sales count for (Region=CollgCr, Year_Sold=2006) is 32.",
+    "target": "In 2006, 32 transactions were recorded in CollgCr. This is a moderately active market."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NAmes, Price=$105,000, Product_Category=house, Year_Sold=2007, Overall_Qual=5, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in NAmes sold for $105,000 in 2007. The property has average overall quality (score 5/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the StoneBr market in 2007? Sales count for (Region=StoneBr, Year_Sold=2007) is 5.",
+    "target": "In 2007, 5 transactions were recorded in StoneBr. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "How active was the CollgCr market in 2006? Sales count for (Region=CollgCr, Year_Sold=2006) is 32.",
+    "target": "In 2006, 32 transactions were recorded in CollgCr. This is a moderately active market."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Gilbert, Price=$236,000, Product_Category=house, Year_Sold=2009, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Gilbert sold for $236,000 in 2009. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Somerst, Price=$185,000.",
+    "target": "No, this property in Somerst is not near a railroad (Condition_1=Norm). It sold for $185,000 in 2006."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0430 mean for the NAmes neighborhood in 2009?",
+    "target": "In NAmes, the regional median sale price decreased by -4.30% year-over-year up to 2009. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Which 5 neighborhoods have the most property transactions?",
+    "target": "SELECT Region, COUNT(*) as cnt FROM sales GROUP BY Region ORDER BY cnt DESC LIMIT 5;\nTop 5 neighborhoods by transaction volume: NAmes: 225, CollgCr: 150, OldTown: 113, Edwards: 100, Somerst: 86."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NPkVill, Price=$128,000.",
+    "target": "No, this property in NPkVill is not near a railroad (Condition_1=Norm). It sold for $128,000 in 2007."
+  },
+  {
+    "prompt": "How active was the Somerst market in 2007? Sales count for (Region=Somerst, Year_Sold=2007) is 24.",
+    "target": "In 2007, 24 transactions were recorded in Somerst. This is a moderately active market."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=CollgCr, Price=$150,500, Product_Category=house, Year_Sold=2009, Overall_Qual=5, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in CollgCr sold for $150,500 in 2009. The property has average overall quality (score 5/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the Crawfor market in 2007? Sales count for (Region=Crawfor, Year_Sold=2007) is 19.",
+    "target": "In 2007, 19 transactions were recorded in Crawfor. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=OldTown, Price=$117,000, Product_Category=house, Year_Sold=2006, Overall_Qual=6, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in OldTown sold for $117,000 in 2006. The property has average overall quality (score 6/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NoRidge: Price_Elasticity=-0.1111. The regional median is the reference point.",
+    "target": "This house sold moderately below the regional median price in NoRidge (price elasticity=-0.1111, i.e. -11.11% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "How active was the Sawyer market in 2009? Sales count for (Region=Sawyer, Year_Sold=2009) is 11.",
+    "target": "In 2009, 11 transactions were recorded in Sawyer. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Blmngtn, Price=$264,561, Product_Category=house, Year_Sold=2006, Overall_Qual=8, Garage_Cars=3, Discount=a partial sale.",
+    "target": "A house in Blmngtn sold for $264,561 in 2006. The property has good overall quality (score 8/10) and 3 garage parking spots. It was a partial sale."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0030 mean for the Mitchel neighborhood in 2009?",
+    "target": "In Mitchel, the regional median sale price decreased by -0.30% year-over-year up to 2009. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in CollgCr: Price_Elasticity=-0.2748. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in CollgCr (price elasticity=-0.2748, i.e. -27.48% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "How active was the NAmes market in 2010? Sales count for (Region=NAmes, Year_Sold=2010) is 33.",
+    "target": "In 2010, 33 transactions were recorded in NAmes. This is a moderately active market."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0511 mean for the NWAmes neighborhood in 2009?",
+    "target": "In NWAmes, the regional median sale price increased by 5.11% year-over-year up to 2009. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=CollgCr, Price=$132,500.",
+    "target": "No, this property in CollgCr is not near a railroad (Condition_1=Norm). It sold for $132,500 in 2006."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Blmngtn: Price_Elasticity=0.0168. The regional median is the reference point.",
+    "target": "This house sold very slightly above the regional median price in Blmngtn (price elasticity=0.0168, i.e. +1.68% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "How active was the Edwards market in 2006? Sales count for (Region=Edwards, Year_Sold=2006) is 19.",
+    "target": "In 2006, 19 transactions were recorded in Edwards. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0224 mean for the Sawyer neighborhood in 2009?",
+    "target": "In Sawyer, the regional median sale price increased by 2.24% year-over-year up to 2009. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "How active was the NAmes market in 2009? Sales count for (Region=NAmes, Year_Sold=2009) is 45.",
+    "target": "In 2009, 45 transactions were recorded in NAmes. This is a moderately active market."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Somerst, Price=$241,000.",
+    "target": "No, this property in Somerst is not near a railroad (Condition_1=Norm). It sold for $241,000 in 2009."
+  },
+  {
+    "prompt": "How active was the MeadowV market in 2009? Sales count for (Region=MeadowV, Year_Sold=2009) is 5.",
+    "target": "In 2009, 5 transactions were recorded in MeadowV. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in MeadowV: Price_Elasticity=-0.0795. The regional median is the reference point.",
+    "target": "This house sold slightly below the regional median price in MeadowV (price elasticity=-0.0795, i.e. -7.95% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "How active was the BrkSide market in 2006? Sales count for (Region=BrkSide, Year_Sold=2006) is 15.",
+    "target": "In 2006, 15 transactions were recorded in BrkSide. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=SawyerW, Price=$76,000, Product_Category=house, Year_Sold=2009, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in SawyerW sold for $76,000 in 2009. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=RRAn, Region=Somerst, Price=$282,922.",
+    "target": "Yes, this property in Somerst is located near a railroad (Condition_1=RRAn). Railroad proximity is generally associated with lower price elasticity and can negatively affect perceived property value."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0440 mean for the Timber neighborhood in 2007?",
+    "target": "In Timber, the regional median sale price decreased by -4.40% year-over-year up to 2007. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in CollgCr: Price_Elasticity=-0.0314. The regional median is the reference point.",
+    "target": "This house sold slightly below the regional median price in CollgCr (price elasticity=-0.0314, i.e. -3.14% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NAmes, Price=$207,500.",
+    "target": "No, this property in NAmes is not near a railroad (Condition_1=Norm). It sold for $207,500 in 2006."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0450 mean for the NAmes neighborhood in 2008?",
+    "target": "In NAmes, the regional median sale price increased by 4.50% year-over-year up to 2008. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=CollgCr, Price=$173,900.",
+    "target": "No, this property in CollgCr is not near a railroad (Condition_1=Norm). It sold for $173,900 in 2006."
+  },
+  {
+    "prompt": "How active was the NAmes market in 2006? Sales count for (Region=NAmes, Year_Sold=2006) is 44.",
+    "target": "In 2006, 44 transactions were recorded in NAmes. This is a moderately active market."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NAmes: Price_Elasticity=0.0000. The regional median is the reference point.",
+    "target": "This house sold very slightly below the regional median price in NAmes (price elasticity=0.0000, i.e. +0.00% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.1360 mean for the OldTown neighborhood in 2008?",
+    "target": "In OldTown, the regional median sale price increased by 13.60% year-over-year up to 2008. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in CollgCr: Price_Elasticity=-0.2698. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in CollgCr (price elasticity=-0.2698, i.e. -26.98% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "How active was the Crawfor market in 2008? Sales count for (Region=Crawfor, Year_Sold=2008) is 9.",
+    "target": "In 2008, 9 transactions were recorded in Crawfor. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=IDOTRR, Price=$147,000.",
+    "target": "No, this property in IDOTRR is not near a railroad (Condition_1=Norm). It sold for $147,000 in 2009."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Gilbert, Price=$194,500.",
+    "target": "No, this property in Gilbert is not near a railroad (Condition_1=Norm). It sold for $194,500 in 2008."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Feedr, Region=Sawyer, Price=$118,500.",
+    "target": "No, this property in Sawyer is not near a railroad (Condition_1=Feedr). It sold for $118,500 in 2007."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NWAmes, Price=$154,000, Product_Category=house, Year_Sold=2009, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in NWAmes sold for $154,000 in 2009. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in IDOTRR: Price_Elasticity=-0.1165. The regional median is the reference point.",
+    "target": "This house sold moderately below the regional median price in IDOTRR (price elasticity=-0.1165, i.e. -11.65% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0224 mean for the Sawyer neighborhood in 2009?",
+    "target": "In Sawyer, the regional median sale price increased by 2.24% year-over-year up to 2009. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "How active was the NridgHt market in 2006? Sales count for (Region=NridgHt, Year_Sold=2006) is 17.",
+    "target": "In 2006, 17 transactions were recorded in NridgHt. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=IDOTRR, Price=$102,776.",
+    "target": "No, this property in IDOTRR is not near a railroad (Condition_1=Norm). It sold for $102,776 in 2010."
+  },
+  {
+    "prompt": "How active was the NWAmes market in 2010? Sales count for (Region=NWAmes, Year_Sold=2010) is 7.",
+    "target": "In 2010, 7 transactions were recorded in NWAmes. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NAmes: Price_Elasticity=0.2993. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in NAmes (price elasticity=0.2993, i.e. +29.93% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Feedr, Region=SawyerW, Price=$179,900.",
+    "target": "No, this property in SawyerW is not near a railroad (Condition_1=Feedr). It sold for $179,900 in 2007."
+  },
+  {
+    "prompt": "How active was the NoRidge market in 2006? Sales count for (Region=NoRidge, Year_Sold=2006) is 9.",
+    "target": "In 2006, 9 transactions were recorded in NoRidge. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Edwards, Price=$105,000, Product_Category=house, Year_Sold=2009, Overall_Qual=6, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in Edwards sold for $105,000 in 2009. The property has average overall quality (score 6/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Gilbert, Price=$177,000.",
+    "target": "No, this property in Gilbert is not near a railroad (Condition_1=Norm). It sold for $177,000 in 2007."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Gilbert: Price_Elasticity=-0.0028. The regional median is the reference point.",
+    "target": "This house sold very slightly below the regional median price in Gilbert (price elasticity=-0.0028, i.e. -0.28% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=SawyerW, Price=$277,000.",
+    "target": "No, this property in SawyerW is not near a railroad (Condition_1=Norm). It sold for $277,000 in 2007."
+  },
+  {
+    "prompt": "How active was the NoRidge market in 2008? Sales count for (Region=NoRidge, Year_Sold=2008) is 6.",
+    "target": "In 2008, 6 transactions were recorded in NoRidge. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=CollgCr, Price=$188,000.",
+    "target": "No, this property in CollgCr is not near a railroad (Condition_1=Norm). It sold for $188,000 in 2008."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=CollgCr, Price=$213,500, Product_Category=house, Year_Sold=2007, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in CollgCr sold for $213,500 in 2007. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0622 mean for the NWAmes neighborhood in 2010?",
+    "target": "In NWAmes, the regional median sale price increased by 6.22% year-over-year up to 2010. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NAmes: Price_Elasticity=-0.3071. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in NAmes (price elasticity=-0.3071, i.e. -30.71% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in OldTown: Price_Elasticity=-0.2481. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in OldTown (price elasticity=-0.2481, i.e. -24.81% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Somerst, Price=$239,000.",
+    "target": "No, this property in Somerst is not near a railroad (Condition_1=Norm). It sold for $239,000 in 2007."
+  },
+  {
+    "prompt": "How active was the Gilbert market in 2006? Sales count for (Region=Gilbert, Year_Sold=2006) is 24.",
+    "target": "In 2006, 24 transactions were recorded in Gilbert. This is a moderately active market."
+  },
+  {
+    "prompt": "How active was the NAmes market in 2008? Sales count for (Region=NAmes, Year_Sold=2008) is 50.",
+    "target": "In 2008, 50 transactions were recorded in NAmes. This is a high-volume market, indicating strong buyer activity."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Sawyer: Price_Elasticity=0.0296. The regional median is the reference point.",
+    "target": "This house sold very slightly above the regional median price in Sawyer (price elasticity=0.0296, i.e. +2.96% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Sawyer, Price=$112,000, Product_Category=apartment, Year_Sold=2010, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A apartment in Sawyer sold for $112,000 in 2010. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.1769 mean for the BrkSide neighborhood in 2007?",
+    "target": "In BrkSide, the regional median sale price increased by 17.69% year-over-year up to 2007. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=PosA, Region=Crawfor, Price=$335,000.",
+    "target": "No, this property in Crawfor is not near a railroad (Condition_1=PosA). It sold for $335,000 in 2010."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0719 mean for the NAmes neighborhood in 2010?",
+    "target": "In NAmes, the regional median sale price increased by 7.19% year-over-year up to 2010. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0430 mean for the NAmes neighborhood in 2009?",
+    "target": "In NAmes, the regional median sale price decreased by -4.30% year-over-year up to 2009. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NoRidge, Price=$336,000, Product_Category=house, Year_Sold=2009, Overall_Qual=8, Garage_Cars=3, Discount=a standard market sale.",
+    "target": "A house in NoRidge sold for $336,000 in 2009. The property has good overall quality (score 8/10) and 3 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the Somerst market in 2009? Sales count for (Region=Somerst, Year_Sold=2009) is 18.",
+    "target": "In 2009, 18 transactions were recorded in Somerst. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Mitchel: Price_Elasticity=0.0945. The regional median is the reference point.",
+    "target": "This house sold moderately above the regional median price in Mitchel (price elasticity=0.0945, i.e. +9.45% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=CollgCr, Price=$221,000, Product_Category=house, Year_Sold=2008, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in CollgCr sold for $221,000 in 2008. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Veenker, Price=$165,000, Product_Category=house, Year_Sold=2006, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Veenker sold for $165,000 in 2006. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Sawyer: Price_Elasticity=-0.0593. The regional median is the reference point.",
+    "target": "This house sold slightly below the regional median price in Sawyer (price elasticity=-0.0593, i.e. -5.93% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=CollgCr, Price=$279,500.",
+    "target": "No, this property in CollgCr is not near a railroad (Condition_1=Norm). It sold for $279,500 in 2007."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Somerst, Price=$263,435, Product_Category=house, Year_Sold=2009, Overall_Qual=8, Garage_Cars=2, Discount=a partial sale.",
+    "target": "A house in Somerst sold for $263,435 in 2009. The property has good overall quality (score 8/10) and 2 garage parking spots. It was a partial sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NoRidge: Price_Elasticity=1.0730. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in NoRidge (price elasticity=1.0730, i.e. +107.30% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Edwards, Price=$112,000, Product_Category=house, Year_Sold=2007, Overall_Qual=4, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in Edwards sold for $112,000 in 2007. The property has below-average overall quality (score 4/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in BrkSide: Price_Elasticity=-0.0217. The regional median is the reference point.",
+    "target": "This house sold very slightly below the regional median price in BrkSide (price elasticity=-0.0217, i.e. -2.17% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Sawyer: Price_Elasticity=0.1074. The regional median is the reference point.",
+    "target": "This house sold moderately above the regional median price in Sawyer (price elasticity=0.1074, i.e. +10.74% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NAmes, Price=$139,950.",
+    "target": "No, this property in NAmes is not near a railroad (Condition_1=Norm). It sold for $139,950 in 2008."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=IDOTRR, Price=$106,500.",
+    "target": "No, this property in IDOTRR is not near a railroad (Condition_1=Norm). It sold for $106,500 in 2006."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a apartment in Sawyer: Price_Elasticity=0.4074. The regional median is the reference point.",
+    "target": "This apartment sold significantly above the regional median price in Sawyer (price elasticity=0.4074, i.e. +40.74% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "How active was the Edwards market in 2007? Sales count for (Region=Edwards, Year_Sold=2007) is 17.",
+    "target": "In 2007, 17 transactions were recorded in Edwards. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.1457 mean for the Sawyer neighborhood in 2007?",
+    "target": "In Sawyer, the regional median sale price decreased by -14.57% year-over-year up to 2007. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Edwards: Price_Elasticity=-0.2936. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in Edwards (price elasticity=-0.2936, i.e. -29.36% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0776 mean for the Crawfor neighborhood in 2007?",
+    "target": "In Crawfor, the regional median sale price decreased by -7.76% year-over-year up to 2007. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.2459 mean for the SawyerW neighborhood in 2007?",
+    "target": "In SawyerW, the regional median sale price increased by 24.59% year-over-year up to 2007. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NAmes, Price=$139,000, Product_Category=house, Year_Sold=2009, Overall_Qual=6, Garage_Cars=1, Discount=a standard market sale.",
+    "target": "A house in NAmes sold for $139,000 in 2009. The property has average overall quality (score 6/10) and 1 garage parking spot. It was a standard market sale."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.1649 mean for the NridgHt neighborhood in 2008?",
+    "target": "In NridgHt, the regional median sale price increased by 16.49% year-over-year up to 2008. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0079 mean for the NridgHt neighborhood in 2007?",
+    "target": "In NridgHt, the regional median sale price increased by 0.79% year-over-year up to 2007. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Somerst, Price=$165,000, Product_Category=house, Year_Sold=2006, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Somerst sold for $165,000 in 2006. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the Gilbert market in 2006? Sales count for (Region=Gilbert, Year_Sold=2006) is 24.",
+    "target": "In 2006, 24 transactions were recorded in Gilbert. This is a moderately active market."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Somerst, Price=$227,000, Product_Category=house, Year_Sold=2007, Overall_Qual=8, Garage_Cars=3, Discount=a standard market sale.",
+    "target": "A house in Somerst sold for $227,000 in 2007. The property has good overall quality (score 8/10) and 3 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=CollgCr, Price=$272,000.",
+    "target": "No, this property in CollgCr is not near a railroad (Condition_1=Norm). It sold for $272,000 in 2010."
+  },
+  {
+    "prompt": "How active was the IDOTRR market in 2008? Sales count for (Region=IDOTRR, Year_Sold=2008) is 7.",
+    "target": "In 2008, 7 transactions were recorded in IDOTRR. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NoRidge, Price=$221,000.",
+    "target": "No, this property in NoRidge is not near a railroad (Condition_1=Norm). It sold for $221,000 in 2010."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.1360 mean for the OldTown neighborhood in 2008?",
+    "target": "In OldTown, the regional median sale price increased by 13.60% year-over-year up to 2008. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.2154 mean for the Somerst neighborhood in 2007?",
+    "target": "In Somerst, the regional median sale price increased by 21.54% year-over-year up to 2007. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NridgHt: Price_Elasticity=-0.1273. The regional median is the reference point.",
+    "target": "This house sold moderately below the regional median price in NridgHt (price elasticity=-0.1273, i.e. -12.73% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NAmes, Price=$151,000, Product_Category=house, Year_Sold=2008, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in NAmes sold for $151,000 in 2008. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in SawyerW: Price_Elasticity=-0.2162. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in SawyerW (price elasticity=-0.2162, i.e. -21.62% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=IDOTRR, Price=$34,900, Product_Category=house, Year_Sold=2009, Overall_Qual=4, Garage_Cars=0, Discount=an abnormal sale.",
+    "target": "A house in IDOTRR sold for $34,900 in 2009. The property has below-average overall quality (score 4/10) and 0 garage parking spots. It was an abnormal sale."
+  },
+  {
+    "prompt": "How active was the OldTown market in 2006? Sales count for (Region=OldTown, Year_Sold=2006) is 26.",
+    "target": "In 2006, 26 transactions were recorded in OldTown. This is a moderately active market."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Timber: Price_Elasticity=-0.2341. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in Timber (price elasticity=-0.2341, i.e. -23.41% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "How active was the CollgCr market in 2008? Sales count for (Region=CollgCr, Year_Sold=2008) is 36.",
+    "target": "In 2008, 36 transactions were recorded in CollgCr. This is a moderately active market."
+  },
+  {
+    "prompt": "How active was the SawyerW market in 2006? Sales count for (Region=SawyerW, Year_Sold=2006) is 8.",
+    "target": "In 2006, 8 transactions were recorded in SawyerW. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Feedr, Region=Edwards, Price=$140,000.",
+    "target": "No, this property in Edwards is not near a railroad (Condition_1=Feedr). It sold for $140,000 in 2007."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Edwards, Price=$110,000.",
+    "target": "No, this property in Edwards is not near a railroad (Condition_1=Norm). It sold for $110,000 in 2009."
+  },
+  {
+    "prompt": "How active was the CollgCr market in 2008? Sales count for (Region=CollgCr, Year_Sold=2008) is 36.",
+    "target": "In 2008, 36 transactions were recorded in CollgCr. This is a moderately active market."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in SWISU: Price_Elasticity=-0.0147. The regional median is the reference point.",
+    "target": "This house sold very slightly below the regional median price in SWISU (price elasticity=-0.0147, i.e. -1.47% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Blmngtn, Price=$174,000, Product_Category=house, Year_Sold=2009, Overall_Qual=7, Garage_Cars=3, Discount=a standard market sale.",
+    "target": "A house in Blmngtn sold for $174,000 in 2009. The property has good overall quality (score 7/10) and 3 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Somerst: Price_Elasticity=-0.3525. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in Somerst (price elasticity=-0.3525, i.e. -35.25% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=CollgCr, Price=$239,799, Product_Category=house, Year_Sold=2006, Overall_Qual=7, Garage_Cars=3, Discount=a partial sale.",
+    "target": "A house in CollgCr sold for $239,799 in 2006. The property has good overall quality (score 7/10) and 3 garage parking spots. It was a partial sale."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Gilbert, Price=$170,000, Product_Category=house, Year_Sold=2007, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Gilbert sold for $170,000 in 2007. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=CollgCr, Price=$237,000.",
+    "target": "No, this property in CollgCr is not near a railroad (Condition_1=Norm). It sold for $237,000 in 2010."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in BrDale: Price_Elasticity=-0.1085. The regional median is the reference point.",
+    "target": "This house sold moderately below the regional median price in BrDale (price elasticity=-0.1085, i.e. -10.85% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=OldTown, Price=$170,000, Product_Category=house, Year_Sold=2006, Overall_Qual=5, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in OldTown sold for $170,000 in 2006. The property has average overall quality (score 5/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=CollgCr, Price=$279,500, Product_Category=house, Year_Sold=2007, Overall_Qual=7, Garage_Cars=3, Discount=a partial sale.",
+    "target": "A house in CollgCr sold for $279,500 in 2007. The property has good overall quality (score 7/10) and 3 garage parking spots. It was a partial sale."
+  },
+  {
+    "prompt": "How active was the Crawfor market in 2007? Sales count for (Region=Crawfor, Year_Sold=2007) is 19.",
+    "target": "In 2007, 19 transactions were recorded in Crawfor. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=StoneBr, Price=$377,426, Product_Category=house, Year_Sold=2007, Overall_Qual=9, Garage_Cars=3, Discount=a standard market sale.",
+    "target": "A house in StoneBr sold for $377,426 in 2007. The property has excellent overall quality (score 9/10) and 3 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the Edwards market in 2006? Sales count for (Region=Edwards, Year_Sold=2006) is 19.",
+    "target": "In 2006, 19 transactions were recorded in Edwards. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Feedr, Region=IDOTRR, Price=$40,000.",
+    "target": "No, this property in IDOTRR is not near a railroad (Condition_1=Feedr). It sold for $40,000 in 2008."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0414 mean for the Gilbert neighborhood in 2007?",
+    "target": "In Gilbert, the regional median sale price decreased by -4.14% year-over-year up to 2007. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "How active was the NAmes market in 2007? Sales count for (Region=NAmes, Year_Sold=2007) is 53.",
+    "target": "In 2007, 53 transactions were recorded in NAmes. This is a high-volume market, indicating strong buyer activity."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in BrkSide: Price_Elasticity=-0.1955. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in BrkSide (price elasticity=-0.1955, i.e. -19.55% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Somerst, Price=$227,680, Product_Category=house, Year_Sold=2008, Overall_Qual=7, Garage_Cars=2, Discount=a partial sale.",
+    "target": "A house in Somerst sold for $227,680 in 2008. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a partial sale."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0450 mean for the NAmes neighborhood in 2008?",
+    "target": "In NAmes, the regional median sale price increased by 4.50% year-over-year up to 2008. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "How active was the SawyerW market in 2010? Sales count for (Region=SawyerW, Year_Sold=2010) is 13.",
+    "target": "In 2010, 13 transactions were recorded in SawyerW. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NridgHt, Price=$275,000.",
+    "target": "No, this property in NridgHt is not near a railroad (Condition_1=Norm). It sold for $275,000 in 2006."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=SawyerW, Price=$275,000, Product_Category=house, Year_Sold=2009, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in SawyerW sold for $275,000 in 2009. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Edwards: Price_Elasticity=-0.0554. The regional median is the reference point.",
+    "target": "This house sold slightly below the regional median price in Edwards (price elasticity=-0.0554, i.e. -5.54% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0251 mean for the Gilbert neighborhood in 2009?",
+    "target": "In Gilbert, the regional median sale price decreased by -2.51% year-over-year up to 2009. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=CollgCr, Price=$155,900.",
+    "target": "No, this property in CollgCr is not near a railroad (Condition_1=Norm). It sold for $155,900 in 2006."
+  },
+  {
+    "prompt": "What is the average price elasticity for each property category (house, apartment, studio)?",
+    "target": "SELECT Product_Category, AVG(Price_Elasticity) FROM sales GROUP BY Product_Category;\nAverage price elasticity by category: house: 0.042; apartment: -0.063; studio: -0.590."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Gilbert, Price=$176,000.",
+    "target": "No, this property in Gilbert is not near a railroad (Condition_1=Norm). It sold for $176,000 in 2008."
+  },
+  {
+    "prompt": "How active was the CollgCr market in 2006? Sales count for (Region=CollgCr, Year_Sold=2006) is 32.",
+    "target": "In 2006, 32 transactions were recorded in CollgCr. This is a moderately active market."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=CollgCr, Price=$185,500, Product_Category=house, Year_Sold=2010, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in CollgCr sold for $185,500 in 2010. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the Gilbert market in 2007? Sales count for (Region=Gilbert, Year_Sold=2007) is 19.",
+    "target": "In 2007, 19 transactions were recorded in Gilbert. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "How active was the Mitchel market in 2007? Sales count for (Region=Mitchel, Year_Sold=2007) is 11.",
+    "target": "In 2007, 11 transactions were recorded in Mitchel. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=RRAn, Region=BrkSide, Price=$153,575.",
+    "target": "Yes, this property in BrkSide is located near a railroad (Condition_1=RRAn). Railroad proximity is generally associated with lower price elasticity and can negatively affect perceived property value."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NoRidge: Price_Elasticity=0.5473. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in NoRidge (price elasticity=0.5473, i.e. +54.73% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in BrkSide: Price_Elasticity=-0.3121. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in BrkSide (price elasticity=-0.3121, i.e. -31.21% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in OldTown: Price_Elasticity=-0.1261. The regional median is the reference point.",
+    "target": "This house sold moderately below the regional median price in OldTown (price elasticity=-0.1261, i.e. -12.61% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NWAmes: Price_Elasticity=-0.0104. The regional median is the reference point.",
+    "target": "This house sold very slightly below the regional median price in NWAmes (price elasticity=-0.0104, i.e. -1.04% deviation). This suggests the property was priced at or near the typical market level."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in StoneBr: Price_Elasticity=-0.1403. The regional median is the reference point.",
+    "target": "This house sold moderately below the regional median price in StoneBr (price elasticity=-0.1403, i.e. -14.03% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "How active was the NAmes market in 2010? Sales count for (Region=NAmes, Year_Sold=2010) is 33.",
+    "target": "In 2010, 33 transactions were recorded in NAmes. This is a moderately active market."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=OldTown, Price=$126,175.",
+    "target": "No, this property in OldTown is not near a railroad (Condition_1=Norm). It sold for $126,175 in 2006."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Artery, Region=OldTown, Price=$110,500.",
+    "target": "No, this property in OldTown is not near a railroad (Condition_1=Artery). It sold for $110,500 in 2006."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Mitchel, Price=$239,686, Product_Category=house, Year_Sold=2009, Overall_Qual=7, Garage_Cars=2, Discount=an abnormal sale.",
+    "target": "A house in Mitchel sold for $239,686 in 2009. The property has good overall quality (score 7/10) and 2 garage parking spots. It was an abnormal sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NAmes: Price_Elasticity=-0.0536. The regional median is the reference point.",
+    "target": "This house sold slightly below the regional median price in NAmes (price elasticity=-0.0536, i.e. -5.36% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NoRidge, Price=$745,000, Product_Category=house, Year_Sold=2007, Overall_Qual=10, Garage_Cars=3, Discount=an abnormal sale.",
+    "target": "A house in NoRidge sold for $745,000 in 2007. The property has excellent overall quality (score 10/10) and 3 garage parking spots. It was an abnormal sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=BrDale, Price=$106,000.",
+    "target": "No, this property in BrDale is not near a railroad (Condition_1=Norm). It sold for $106,000 in 2007."
+  },
+  {
+    "prompt": "How active was the NAmes market in 2006? Sales count for (Region=NAmes, Year_Sold=2006) is 44.",
+    "target": "In 2006, 44 transactions were recorded in NAmes. This is a moderately active market."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Crawfor, Price=$220,000, Product_Category=house, Year_Sold=2007, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Crawfor sold for $220,000 in 2007. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NAmes, Price=$134,500.",
+    "target": "No, this property in NAmes is not near a railroad (Condition_1=Norm). It sold for $134,500 in 2007."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.1868 mean for the ClearCr neighborhood in 2007?",
+    "target": "In ClearCr, the regional median sale price increased by 18.68% year-over-year up to 2007. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in NWAmes: Price_Elasticity=0.3122. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in NWAmes (price elasticity=0.3122, i.e. +31.22% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "How active was the CollgCr market in 2009? Sales count for (Region=CollgCr, Year_Sold=2009) is 39.",
+    "target": "In 2009, 39 transactions were recorded in CollgCr. This is a moderately active market."
+  },
+  {
+    "prompt": "How active was the Somerst market in 2007? Sales count for (Region=Somerst, Year_Sold=2007) is 24.",
+    "target": "In 2007, 24 transactions were recorded in Somerst. This is a moderately active market."
+  },
+  {
+    "prompt": "How active was the NAmes market in 2007? Sales count for (Region=NAmes, Year_Sold=2007) is 53.",
+    "target": "In 2007, 53 transactions were recorded in NAmes. This is a high-volume market, indicating strong buyer activity."
+  },
+  {
+    "prompt": "How active was the SawyerW market in 2008? Sales count for (Region=SawyerW, Year_Sold=2008) is 11.",
+    "target": "In 2008, 11 transactions were recorded in SawyerW. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "How active was the Edwards market in 2010? Sales count for (Region=Edwards, Year_Sold=2010) is 11.",
+    "target": "In 2010, 11 transactions were recorded in Edwards. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NridgHt, Price=$318,000.",
+    "target": "No, this property in NridgHt is not near a railroad (Condition_1=Norm). It sold for $318,000 in 2007."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0729 mean for the CollgCr neighborhood in 2010?",
+    "target": "In CollgCr, the regional median sale price increased by 7.29% year-over-year up to 2010. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "How active was the NAmes market in 2010? Sales count for (Region=NAmes, Year_Sold=2010) is 33.",
+    "target": "In 2010, 33 transactions were recorded in NAmes. This is a moderately active market."
+  },
+  {
+    "prompt": "How active was the Veenker market in 2007? Sales count for (Region=Veenker, Year_Sold=2007) is 5.",
+    "target": "In 2007, 5 transactions were recorded in Veenker. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=CollgCr, Price=$219,500.",
+    "target": "No, this property in CollgCr is not near a railroad (Condition_1=Norm). It sold for $219,500 in 2009."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NAmes, Price=$142,000.",
+    "target": "No, this property in NAmes is not near a railroad (Condition_1=Norm). It sold for $142,000 in 2010."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Somerst: Price_Elasticity=0.3830. The regional median is the reference point.",
+    "target": "This house sold significantly above the regional median price in Somerst (price elasticity=0.3830, i.e. +38.30% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0105 mean for the CollgCr neighborhood in 2009?",
+    "target": "In CollgCr, the regional median sale price increased by 1.05% year-over-year up to 2009. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Mitchel, Price=$170,000, Product_Category=house, Year_Sold=2006, Overall_Qual=5, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Mitchel sold for $170,000 in 2006. The property has average overall quality (score 5/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Feedr, Region=Somerst, Price=$244,600.",
+    "target": "No, this property in Somerst is not near a railroad (Condition_1=Feedr). It sold for $244,600 in 2009."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0011 mean for the Somerst neighborhood in 2008?",
+    "target": "In Somerst, the regional median sale price decreased by -0.11% year-over-year up to 2008. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Edwards, Price=$118,500.",
+    "target": "No, this property in Edwards is not near a railroad (Condition_1=Norm). It sold for $118,500 in 2007."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NAmes, Price=$118,500.",
+    "target": "No, this property in NAmes is not near a railroad (Condition_1=Norm). It sold for $118,500 in 2008."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=StoneBr, Price=$501,837, Product_Category=house, Year_Sold=2009, Overall_Qual=9, Garage_Cars=3, Discount=a partial sale.",
+    "target": "A house in StoneBr sold for $501,837 in 2009. The property has excellent overall quality (score 9/10) and 3 garage parking spots. It was a partial sale."
+  },
+  {
+    "prompt": "How active was the NridgHt market in 2006? Sales count for (Region=NridgHt, Year_Sold=2006) is 17.",
+    "target": "In 2006, 17 transactions were recorded in NridgHt. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NWAmes, Price=$210,000, Product_Category=house, Year_Sold=2010, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in NWAmes sold for $210,000 in 2010. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.0355 mean for the ClearCr neighborhood in 2008?",
+    "target": "In ClearCr, the regional median sale price decreased by -3.55% year-over-year up to 2008. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Sawyer, Price=$151,000, Product_Category=house, Year_Sold=2006, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Sawyer sold for $151,000 in 2006. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the NridgHt market in 2009? Sales count for (Region=NridgHt, Year_Sold=2009) is 22.",
+    "target": "In 2009, 22 transactions were recorded in NridgHt. This is a moderately active market."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.2154 mean for the Somerst neighborhood in 2007?",
+    "target": "In Somerst, the regional median sale price increased by 21.54% year-over-year up to 2007. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=OldTown, Price=$66,500, Product_Category=house, Year_Sold=2009, Overall_Qual=5, Garage_Cars=1, Discount=an abnormal sale.",
+    "target": "A house in OldTown sold for $66,500 in 2009. The property has average overall quality (score 5/10) and 1 garage parking spot. It was an abnormal sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Somerst, Price=$176,000.",
+    "target": "No, this property in Somerst is not near a railroad (Condition_1=Norm). It sold for $176,000 in 2006."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=OldTown, Price=$106,000.",
+    "target": "No, this property in OldTown is not near a railroad (Condition_1=Norm). It sold for $106,000 in 2009."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=CollgCr, Price=$163,990, Product_Category=house, Year_Sold=2006, Overall_Qual=6, Garage_Cars=2, Discount=a partial sale.",
+    "target": "A house in CollgCr sold for $163,990 in 2006. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a partial sale."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Gilbert, Price=$176,500.",
+    "target": "No, this property in Gilbert is not near a railroad (Condition_1=Norm). It sold for $176,500 in 2006."
+  },
+  {
+    "prompt": "Compare the real estate market in NoRidge vs NridgHt.",
+    "target": "NoRidge vs NridgHt: NoRidge has a higher average price ($335,295 vs $316,271) and higher price elasticity (0.112 vs 0.004). Transaction volume: 41 (NoRidge) vs 77 (NridgHt). NoRidge is the more premium market of the two."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.1769 mean for the BrkSide neighborhood in 2007?",
+    "target": "In BrkSide, the regional median sale price increased by 17.69% year-over-year up to 2007. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=OldTown, Price=$105,000, Product_Category=house, Year_Sold=2006, Overall_Qual=3, Garage_Cars=3, Discount=a family sale.",
+    "target": "A house in OldTown sold for $105,000 in 2006. The property has below-average overall quality (score 3/10) and 3 garage parking spots. It was a family sale."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Blmngtn, Price=$191,000, Product_Category=house, Year_Sold=2008, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Blmngtn sold for $191,000 in 2008. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "How active was the NAmes market in 2009? Sales count for (Region=NAmes, Year_Sold=2009) is 45.",
+    "target": "In 2009, 45 transactions were recorded in NAmes. This is a moderately active market."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=CollgCr, Price=$226,000.",
+    "target": "No, this property in CollgCr is not near a railroad (Condition_1=Norm). It sold for $226,000 in 2007."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Edwards, Price=$107,000, Product_Category=house, Year_Sold=2010, Overall_Qual=6, Garage_Cars=2, Discount=an abnormal sale.",
+    "target": "A house in Edwards sold for $107,000 in 2010. The property has average overall quality (score 6/10) and 2 garage parking spots. It was an abnormal sale."
+  },
+  {
+    "prompt": "How active was the Timber market in 2006? Sales count for (Region=Timber, Year_Sold=2006) is 7.",
+    "target": "In 2006, 7 transactions were recorded in Timber. This is a low-volume market, which may limit price comparisons."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Edwards, Price=$144,500.",
+    "target": "No, this property in Edwards is not near a railroad (Condition_1=Norm). It sold for $144,500 in 2010."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=NridgHt, Price=$360,000.",
+    "target": "No, this property in NridgHt is not near a railroad (Condition_1=Norm). It sold for $360,000 in 2006."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=NWAmes, Price=$173,000, Product_Category=house, Year_Sold=2008, Overall_Qual=6, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in NWAmes sold for $173,000 in 2008. The property has average overall quality (score 6/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of -0.1270 mean for the Mitchel neighborhood in 2007?",
+    "target": "In Mitchel, the regional median sale price decreased by -12.70% year-over-year up to 2007. This slight decline may indicate temporary market softening."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0958 mean for the IDOTRR neighborhood in 2007?",
+    "target": "In IDOTRR, the regional median sale price increased by 9.58% year-over-year up to 2007. This positive trend suggests growing demand in the neighborhood."
+  },
+  {
+    "prompt": "How active was the Gilbert market in 2006? Sales count for (Region=Gilbert, Year_Sold=2006) is 24.",
+    "target": "In 2006, 24 transactions were recorded in Gilbert. This is a moderately active market."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0450 mean for the NAmes neighborhood in 2008?",
+    "target": "In NAmes, the regional median sale price increased by 4.50% year-over-year up to 2008. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a apartment in Sawyer: Price_Elasticity=-0.1704. The regional median is the reference point.",
+    "target": "This apartment sold moderately below the regional median price in Sawyer (price elasticity=-0.1704, i.e. -17.04% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Timber: Price_Elasticity=-0.3982. The regional median is the reference point.",
+    "target": "This house sold significantly below the regional median price in Timber (price elasticity=-0.3982, i.e. -39.82% deviation). This suggests the property sold at a discount relative to the neighborhood median."
+  },
+  {
+    "prompt": "Describe this property transaction: Region=Timber, Price=$375,000, Product_Category=house, Year_Sold=2009, Overall_Qual=7, Garage_Cars=2, Discount=a standard market sale.",
+    "target": "A house in Timber sold for $375,000 in 2009. The property has good overall quality (score 7/10) and 2 garage parking spots. It was a standard market sale."
+  },
+  {
+    "prompt": "Interpret the price elasticity for a house in Sawyer: Price_Elasticity=0.1407. The regional median is the reference point.",
+    "target": "This house sold moderately above the regional median price in Sawyer (price elasticity=0.1407, i.e. +14.07% deviation). This suggests the property commanded a premium over comparable homes."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0450 mean for the NAmes neighborhood in 2008?",
+    "target": "In NAmes, the regional median sale price increased by 4.50% year-over-year up to 2008. Prices remained relatively stable in this period."
+  },
+  {
+    "prompt": "Does this property have railroad proximity? Condition_1=Norm, Region=Edwards, Price=$112,000.",
+    "target": "No, this property in Edwards is not near a railroad (Condition_1=Norm). It sold for $112,000 in 2007."
+  },
+  {
+    "prompt": "How active was the OldTown market in 2006? Sales count for (Region=OldTown, Year_Sold=2006) is 26.",
+    "target": "In 2006, 26 transactions were recorded in OldTown. This is a moderately active market."
+  },
+  {
+    "prompt": "What does a Sales_Change_Pct of 0.0958 mean for the IDOTRR neighborhood in 2007?",
+    "target": "In IDOTRR, the regional median sale price increased by 9.58% year-over-year up to 2007. This positive trend suggests growing demand in the neighborhood."
+  }
+]

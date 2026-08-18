@@ -1,0 +1,62 @@
+[
+  {
+    "prompt": "Fisher z-test in Edwards: r_elite=0.560, n_elite=8, r_budget=0.137, n_budget=31, p=0.3075.",
+    "target": "In Edwards, the Fisher z-test is not statistically significant (p=0.3075). The available data does not support a clear difference between elite and budget price-volume correlations."
+  },
+  {
+    "prompt": "Summarize the parking effect in BrkSide: Parking_Bin=0, mean_elasticity=-0.355, count=10. Price_Elasticity means relative deviation from neighborhood median price.",
+    "target": "In BrkSide, properties with 0 parking spot(s) are strongly below the neighborhood median price (mean_elasticity=-0.355, n=10). This suggests that parking availability is associated with the relative price level in this area."
+  },
+  {
+    "prompt": "Summarize the parking effect in Somerst: Parking_Bin=3+, mean_elasticity=0.198, count=23. Price_Elasticity means relative deviation from neighborhood median price.",
+    "target": "In Somerst, properties with 3+ parking spot(s) are strongly above the neighborhood median price (mean_elasticity=0.198, n=23). This suggests that parking availability is associated with the relative price level in this area."
+  },
+  {
+    "prompt": "Explain railroad proximity in NWAmes: Near_Rail=False, mean_elasticity=0.036, count=67.",
+    "target": "In NWAmes, properties not near railroad are slightly above the neighborhood median price (mean_elasticity=0.036, n=67). The result should be interpreted as a local association, not a universal causal effect."
+  },
+  {
+    "prompt": "Summarize the parking effect in CollgCr: Parking_Bin=3+, mean_elasticity=0.356, count=20. Price_Elasticity means relative deviation from neighborhood median price.",
+    "target": "In CollgCr, properties with 3+ parking spot(s) are strongly above the neighborhood median price (mean_elasticity=0.356, n=20). This suggests that parking availability is associated with the relative price level in this area."
+  },
+  {
+    "prompt": "Explain railroad proximity in Gilbert: Near_Rail=True, mean_elasticity=0.003, count=9.",
+    "target": "In Gilbert, properties near railroad are slightly above the neighborhood median price (mean_elasticity=0.003, n=9). The result should be interpreted as a local association, not a universal causal effect."
+  },
+  {
+    "prompt": "Explain railroad proximity in Somerst: Near_Rail=True, mean_elasticity=0.339, count=6.",
+    "target": "In Somerst, properties near railroad are strongly above the neighborhood median price (mean_elasticity=0.339, n=6). The result should be interpreted as a local association, not a universal causal effect."
+  },
+  {
+    "prompt": "Summarize the parking effect in Crawfor: Parking_Bin=2, mean_elasticity=0.206, count=24. Price_Elasticity means relative deviation from neighborhood median price.",
+    "target": "In Crawfor, properties with 2 parking spot(s) are strongly above the neighborhood median price (mean_elasticity=0.206, n=24). This suggests that parking availability is associated with the relative price level in this area."
+  },
+  {
+    "prompt": "Summarize the parking effect in Edwards: Parking_Bin=2, mean_elasticity=0.220, count=36. Price_Elasticity means relative deviation from neighborhood median price.",
+    "target": "In Edwards, properties with 2 parking spot(s) are strongly above the neighborhood median price (mean_elasticity=0.220, n=36). This suggests that parking availability is associated with the relative price level in this area."
+  },
+  {
+    "prompt": "Summarize the parking effect in Mitchel: Parking_Bin=2, mean_elasticity=0.039, count=32. Price_Elasticity means relative deviation from neighborhood median price.",
+    "target": "In Mitchel, properties with 2 parking spot(s) are slightly above the neighborhood median price (mean_elasticity=0.039, n=32). This suggests that parking availability is associated with the relative price level in this area."
+  },
+  {
+    "prompt": "Summarize the parking effect in NAmes: Parking_Bin=1, mean_elasticity=-0.035, count=103. Price_Elasticity means relative deviation from neighborhood median price.",
+    "target": "In NAmes, properties with 1 parking spot(s) are slightly below the neighborhood median price (mean_elasticity=-0.035, n=103). This suggests that parking availability is associated with the relative price level in this area."
+  },
+  {
+    "prompt": "Summarize the parking effect in NWAmes: Parking_Bin=2, mean_elasticity=0.031, count=72. Price_Elasticity means relative deviation from neighborhood median price.",
+    "target": "In NWAmes, properties with 2 parking spot(s) are slightly above the neighborhood median price (mean_elasticity=0.031, n=72). This suggests that parking availability is associated with the relative price level in this area."
+  },
+  {
+    "prompt": "Summarize the parking effect in BrDale: Parking_Bin=2, mean_elasticity=0.112, count=3. Price_Elasticity means relative deviation from neighborhood median price.",
+    "target": "In BrDale, properties with 2 parking spot(s) are moderately above the neighborhood median price (mean_elasticity=0.112, n=3). This suggests that parking availability is associated with the relative price level in this area."
+  },
+  {
+    "prompt": "Summarize the parking effect in Crawfor: Parking_Bin=3+, mean_elasticity=0.128, count=4. Price_Elasticity means relative deviation from neighborhood median price.",
+    "target": "In Crawfor, properties with 3+ parking spot(s) are moderately above the neighborhood median price (mean_elasticity=0.128, n=4). This suggests that parking availability is associated with the relative price level in this area."
+  },
+  {
+    "prompt": "Explain railroad proximity in Sawyer: Near_Rail=False, mean_elasticity=0.013, count=68.",
+    "target": "In Sawyer, properties not near railroad are slightly above the neighborhood median price (mean_elasticity=0.013, n=68). The result should be interpreted as a local association, not a universal causal effect."
+  }
+]
